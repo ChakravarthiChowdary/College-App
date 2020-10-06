@@ -1,21 +1,42 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { useFonts } from "expo-font";
+import React from "react";
+import { Dimensions, StyleSheet } from "react-native";
+import { Provider } from "react-redux";
+import { applyMiddleware, combineReducers, createStore } from "redux";
+import thunk from "redux-thunk";
+
+import AppNavigator from "./navigation/AppNavigator";
+import authReducer from "./store/reducers/authReducer";
+import contactReducer from "./store/reducers/contactReducer";
+import resultsReducer from "./store/reducers/resultsReducer";
+
+const rootReducer = combineReducers({
+  results: resultsReducer,
+  auth: authReducer,
+  contact: contactReducer,
+});
+const store = createStore(rootReducer, applyMiddleware(thunk));
 
 export default function App() {
+  const [loaded] = useFonts({
+    Roboto: require("./assets/fonts/Roboto-Regular.ttf"),
+    RobotoBold: require("./assets/fonts/Roboto-Bold.ttf"),
+  });
+
+  if (!loaded) {
+    return null;
+  }
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={store}>
+      <AppNavigator />
+    </Provider>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    height: Dimensions.get("screen").height,
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
