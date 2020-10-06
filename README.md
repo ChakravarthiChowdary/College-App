@@ -3,13 +3,13 @@
 This is a Mobile app developed for college, where students can login, view results, view their own profile. This app is secured with biometrics. Credentials and Student IDs are provided in the usage section.
 This is built using React-Native, React Hooks and Redux.
 
-<img align="left" src="https://github.com/ChakravarthiChowdary/Ecommerce-Mobile-App/blob/master/assets/images/app1.png" width="300" height="600" />
+<img align="left" src="https://github.com/ChakravarthiChowdary/Ecommerce-Mobile-App/blob/master/assets/app1.png" width="300" height="600" />
 
-<img src="https://github.com/ChakravarthiChowdary/Ecommerce-Mobile-App/blob/master/assets/images/app2.png" width="300" height="600" />
+<img src="https://github.com/ChakravarthiChowdary/Ecommerce-Mobile-App/blob/master/assets/app2.png" width="300" height="600" />
 
-<img align="left" src="https://github.com/ChakravarthiChowdary/Ecommerce-Mobile-App/blob/master/assets/images/app3.png" width="300" height="600" />
+<img align="left" src="https://github.com/ChakravarthiChowdary/Ecommerce-Mobile-App/blob/master/assets/app3.png" width="300" height="600" />
 
-<img  src="https://github.com/ChakravarthiChowdary/Ecommerce-Mobile-App/blob/master/assets/images/app4.png" width="300" height="600" />
+<img  src="https://github.com/ChakravarthiChowdary/Ecommerce-Mobile-App/blob/master/assets/app4.png" width="300" height="600" />
 
 ## Installation
 
