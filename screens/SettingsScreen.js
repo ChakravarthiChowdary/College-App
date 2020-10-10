@@ -1,17 +1,28 @@
 import { Ionicons } from "@expo/vector-icons";
-import React from "react";
+import React, { useEffect } from "react";
 import { Platform, StyleSheet, TouchableOpacity, View } from "react-native";
 import { HeaderButtons, Item } from "react-navigation-header-buttons";
+import { useDispatch, useSelector } from "react-redux";
 import { Switch } from "react-native-paper";
 
 import HeaderButton from "../components/HeaderButton";
 import Text from "../components/Text";
 import { Colors } from "../constants/Colors";
+import { getUpdateLog } from "../store/actions/commonActions";
+import Loading from "../components/Loading";
+import { Fragment } from "react";
 
 const SettingsScreen = ({ navigation }) => {
+  const dispatch = useDispatch();
+  const { version, loading } = useSelector((state) => state.common);
   const [isSwitchOn, setIsSwitchOn] = React.useState(false);
 
   const onToggleSwitch = () => setIsSwitchOn(!isSwitchOn);
+
+  useEffect(() => {
+    dispatch(getUpdateLog());
+  }, []);
+
   return (
     <View style={styles.settingsScreenOuterView}>
       <View style={styles.settingsScreenPushView}>
@@ -53,10 +64,8 @@ const SettingsScreen = ({ navigation }) => {
           </View>
         </View>
       </View>
-      <View style={styles.settingsScreenCacheView}>
-        <TouchableOpacity
-          onPress={() => navigation.navigate("settingsprivacy")}
-        >
+      <TouchableOpacity onPress={() => navigation.navigate("settingsprivacy")}>
+        <View style={styles.settingsScreenCacheView}>
           <View style={styles.settingsScreenIconView}>
             <Ionicons
               name={Platform.OS === "android" ? "md-lock" : "ios-lock"}
@@ -66,12 +75,10 @@ const SettingsScreen = ({ navigation }) => {
               <Text style={{ fontSize: 18 }}>Privacy policy</Text>
             </View>
           </View>
-        </TouchableOpacity>
-      </View>
-      <View style={styles.settingsScreenCacheView}>
-        <TouchableOpacity
-          onPress={() => navigation.navigate("settingscontact")}
-        >
+        </View>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate("settingscontact")}>
+        <View style={styles.settingsScreenCacheView}>
           <View style={styles.settingsScreenIconView}>
             <Ionicons
               name={Platform.OS === "android" ? "md-mail" : "ios-mail"}
@@ -81,29 +88,36 @@ const SettingsScreen = ({ navigation }) => {
               <Text style={{ fontSize: 18 }}>Contact us</Text>
             </View>
           </View>
-        </TouchableOpacity>
-      </View>
+        </View>
+      </TouchableOpacity>
+
       <View>
         <TouchableOpacity
           onPress={() => navigation.navigate("settingscurrentversion")}
           style={{ ...styles.settingsScreenCacheView, paddingRight: 10 }}
         >
-          <View style={styles.settingsScreenIconView}>
-            <Ionicons
-              name={
-                Platform.OS === "android"
-                  ? "md-information-circle"
-                  : "ios-information-circle"
-              }
-              size={32}
-            />
-            <View style={{ ...styles.settingsScreenText, marginLeft: 15 }}>
-              <Text style={{ fontSize: 18 }}>Current version</Text>
-            </View>
-          </View>
-          <View>
-            <Text>1.0</Text>
-          </View>
+          {loading ? (
+            <Loading size="small" />
+          ) : (
+            <Fragment>
+              <View style={styles.settingsScreenIconView}>
+                <Ionicons
+                  name={
+                    Platform.OS === "android"
+                      ? "md-information-circle"
+                      : "ios-information-circle"
+                  }
+                  size={32}
+                />
+                <View style={{ ...styles.settingsScreenText, marginLeft: 15 }}>
+                  <Text style={{ fontSize: 18 }}>Current version</Text>
+                </View>
+              </View>
+              <View>
+                <Text>{version === 1 ? "1.0" : version}</Text>
+              </View>
+            </Fragment>
+          )}
         </TouchableOpacity>
       </View>
     </View>

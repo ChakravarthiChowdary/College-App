@@ -4,7 +4,7 @@ import { Snackbar } from "react-native-paper";
 
 import { Colors } from "../constants/Colors";
 
-const SnackBar = ({ message, onDismissSnackBar, visible, styles }) => {
+const SnackBar = ({ message, onDismissSnackBar, visible, styles, color }) => {
   return (
     <Snackbar
       visible={visible}
@@ -17,7 +17,7 @@ const SnackBar = ({ message, onDismissSnackBar, visible, styles }) => {
       style={{
         marginBottom: Dimensions.get("screen").height / 11,
         ...styles,
-        backgroundColor: Colors.secondary,
+        backgroundColor: color ? color : Colors.secondary,
       }}
       theme={{ colors: { accent: "white" } }}
     >

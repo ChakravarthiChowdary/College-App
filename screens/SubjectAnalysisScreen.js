@@ -40,15 +40,13 @@ const SubjectAnalysisScreen = () => {
 
   return (
     <View style={styles.container}>
-      <View
-        style={{
-          marginVertical: 10,
-        }}
-      >
-        <Text style={{ fontFamily: "RobotoBold", fontSize: 18 }}>
-          {subjectanalysis[0].subject} Analysis
-        </Text>
-        <Divider style={styles.divider} />
+      <View>
+        <View style={styles.titleView}>
+          <Text style={styles.heading}>
+            {subjectanalysis[0].subject} ANALYSIS
+          </Text>
+          <Divider style={styles.divider} />
+        </View>
       </View>
       <ScrollView>
         <View>
@@ -78,12 +76,19 @@ const styles = StyleSheet.create({
   head: { height: 40, backgroundColor: "#f1f8ff" },
   text: { margin: 5, fontSize: 16 },
   wrapper: { flexDirection: "row" },
+  titleView: {
+    marginHorizontal: 20,
+    flexDirection: "column",
+    alignItems: "center",
+    marginTop: 10,
+  },
   divider: {
+    borderColor: Colors.secondary,
     borderWidth: 1,
     width: 100,
-    borderColor: Colors.secondary,
-    marginVertical: 10,
+    marginVertical: 15,
   },
+  heading: { fontSize: 18, color: "#000", fontFamily: "RobotoBold" },
 });
 
 export default SubjectAnalysisScreen;

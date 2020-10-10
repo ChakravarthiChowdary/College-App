@@ -6,11 +6,13 @@ import {
   Platform,
   StyleSheet,
   TouchableWithoutFeedback,
+  ImageBackground,
   View,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { Button } from "react-native-paper";
 import { useDispatch, useSelector } from "react-redux";
+import { LinearGradient } from "expo-linear-gradient";
 
 import TextInput from "../components/TextInput";
 import { Colors } from "../constants/Colors";
@@ -26,6 +28,7 @@ const ContactUsScreen = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState(null);
+  const [color, setColor] = useState(null);
   //Redux level state
   const loading = useSelector((state) => state.contact.loading);
   const sendError = useSelector((state) => state.contact.error);
@@ -34,6 +37,7 @@ const ContactUsScreen = () => {
   const onDismissSnackBar = () => {
     setVisible(false);
     setError(null);
+    setColor(null);
   };
 
   const sendPressedHandler = () => {
@@ -62,73 +66,102 @@ const ContactUsScreen = () => {
       setMessage("");
       setVisible(true);
       setError("Message sent. We will contact you soon!");
+      setColor(Colors.primary);
     }
     dispatch({ type: CLEAR_SEND_ERROR });
   }, [sendError, success]);
 
-  return (
-    <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
-      <View style={styles.contactusOuterView}>
-        <KeyboardAvoidingView
-          behavior="position"
-          style={{ flex: 1, paddingTop: 18 }}
-        >
-          <View style={styles.contactusInnerView}>
-            <View style={styles.contactusIconView}>
-              <Ionicons
-                name={Platform.OS === "android" ? "md-mail" : "ios-mail"}
-                size={128}
-                color="#ccc"
-              />
-            </View>
-            <View style={styles.contactusInputView}>
-              <TextInput
-                mode="outlined"
-                label="Email"
-                value={email}
-                onChangeText={(text) => setEmail(text)}
-              />
-            </View>
-            <View style={styles.contactusInputView}>
-              <TextInput
-                mode="outlined"
-                label="Name"
-                value={name}
-                onChangeText={(text) => setName(text)}
-              />
-            </View>
-            <View style={styles.contactusInputView}>
-              <TextInput
-                mode="outlined"
-                label="Message"
-                multiline
-                numberOfLines={5}
-                value={message}
-                onChangeText={(text) => setMessage(text)}
-              />
-            </View>
-            <View style={styles.contactusButtonView}>
-              <Button
-                mode="contained"
-                color={Colors.secondary}
-                onPress={sendPressedHandler}
-                loading={loading}
-              >
-                Send Message
-              </Button>
-            </View>
-          </View>
+  const focusHandler = () => {
+    setVisible(false);
+    setError(null);
+  };
 
-          <View>
-            <Snackbar
-              visible={visible}
-              onDismissSnackBar={onDismissSnackBar}
-              message={error}
-            />
+  return (
+    <ImageBackground
+      style={styles.image}
+      source={require("../assets/backgroundimage.png")}
+    >
+      <View style={styles.backgroundBlack}>
+        <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
+          <View style={{ flex: 1, height: "100%" }}>
+            <KeyboardAvoidingView
+              behavior="position"
+              style={styles.contactusOuterView}
+            >
+              <View style={styles.contactusInnerView}>
+                <View style={styles.contactusIconView}>
+                  <Ionicons
+                    name={Platform.OS === "android" ? "md-mail" : "ios-mail"}
+                    size={128}
+                    color="#ccc"
+                  />
+                </View>
+                <View style={styles.contactusInputView}>
+                  <TextInput
+                    placeholder="Email"
+                    mode="outlined"
+                    textcolor="#fff"
+                    placeholderColor="#fff"
+                    colorprimary="#fff"
+                    style={styles.inputText}
+                    value={email}
+                    onChangeText={(text) => setEmail(text)}
+                    onFocus={focusHandler}
+                  />
+                </View>
+                <View style={styles.contactusInputView}>
+                  <TextInput
+                    placeholder="Name"
+                    mode="outlined"
+                    textcolor="#fff"
+                    placeholderColor="#fff"
+                    colorprimary="#fff"
+                    style={styles.inputText}
+                    value={name}
+                    onChangeText={(text) => setName(text)}
+                    onFocus={focusHandler}
+                  />
+                </View>
+                <View style={styles.contactusInputView}>
+                  <TextInput
+                    placeholder="Message"
+                    mode="outlined"
+                    textcolor="#fff"
+                    placeholderColor="#fff"
+                    colorprimary="#fff"
+                    style={styles.inputText}
+                    multiline
+                    numberOfLines={5}
+                    value={message}
+                    onChangeText={(text) => setMessage(text)}
+                    onFocus={focusHandler}
+                  />
+                </View>
+                <View style={styles.contactusButtonView}>
+                  <Button
+                    mode="contained"
+                    color={Colors.secondary}
+                    onPress={sendPressedHandler}
+                    loading={loading}
+                  >
+                    Send Message
+                  </Button>
+                </View>
+              </View>
+
+              <View>
+                <Snackbar
+                  visible={visible}
+                  onDismissSnackBar={onDismissSnackBar}
+                  message={error}
+                  color={color}
+                />
+              </View>
+            </KeyboardAvoidingView>
           </View>
-        </KeyboardAvoidingView>
+        </TouchableWithoutFeedback>
       </View>
-    </TouchableWithoutFeedback>
+    </ImageBackground>
   );
 };
 
@@ -156,6 +189,13 @@ const styles = StyleSheet.create({
   contactusInputView: {
     marginBottom: 10,
   },
+  image: {
+    flex: 1,
+    resizeMode: "cover",
+    justifyContent: "center",
+  },
+  backgroundBlack: { height: "100%", backgroundColor: "rgba(0,0,0,0.6)" },
+  inputText: { backgroundColor: "transparent", fontSize: 16 },
 });
 
 export default ContactUsScreen;

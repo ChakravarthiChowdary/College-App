@@ -11,10 +11,15 @@ const TextInputComponent = (props) => {
       {...props}
       theme={{
         colors: {
-          primary: Colors.primary,
+          primary: props.colorprimary ? props.colorprimary : Colors.primary,
           underlineColor: "transparent",
+          text: props.textcolor ? props.textcolor : "#000",
+          placeholder: props.placeholderColor ? props.placeholderColor : "#000",
+          accent: "#fff",
         },
+        roundness: 5,
       }}
+      onFocus={props.onFocus}
     />
   );
 };

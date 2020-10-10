@@ -15,13 +15,13 @@ const ProfileScreen = () => {
   return (
     <View style={styles.OuterView}>
       <ProfileSection />
-      <Divider style={styles.divider} />
+      <Divider />
       <ScrollView>
         <View>
           <AcademicDetails />
-          <Divider style={styles.Divider} />
+          <Divider />
           <AttendanceDetails />
-          <Divider style={styles.Divider} />
+          <Divider />
           <ResultsDetails />
           <PersonalDetails />
         </View>
@@ -34,12 +34,6 @@ const styles = StyleSheet.create({
   OuterView: {
     flex: 1,
     backgroundColor: "#fff",
-  },
-  divider: {
-    borderWidth: 1,
-    borderColor: Colors.secondary,
-    marginVertical: 20,
-    marginHorizontal: 80,
   },
 });
 

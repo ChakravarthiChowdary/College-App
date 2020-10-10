@@ -45,7 +45,7 @@ export const ResultsTabNavigator = ({ route }) => {
       <ResultsTab.Navigator
         screenOptions={defaultTabNavOptions}
         activeColor="#fff"
-        inactiveColor="#ccc"
+        inactiveColor="rgba(255,255,255,0.8)"
         barStyle={{ backgroundColor: Colors.primary }}
       >
         <ResultsTab.Screen

@@ -7,7 +7,7 @@ import {
   TouchableWithoutFeedback,
   View,
 } from "react-native";
-import { Button } from "react-native-paper";
+import { Button, Divider } from "react-native-paper";
 import { useDispatch, useSelector } from "react-redux";
 import { Picker } from "@react-native-community/picker";
 
@@ -19,6 +19,7 @@ import {
   getDepartmentSubject,
 } from "../store/actions/resultsActions";
 import Loading from "../components/Loading";
+import Text from "../components/Text";
 import SnackBar from "../components/SnackBar";
 
 const GetSubjectAnalysisScreen = ({ navigation }) => {
@@ -72,6 +73,10 @@ const GetSubjectAnalysisScreen = ({ navigation }) => {
       <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
         <View style={styles.subjectAnalysisOuterView}>
           <View style={styles.subjectAnalysisInnerView}>
+            <Text style={styles.verifyYourself}>Get Analysis</Text>
+            <View style={styles.dividerView}>
+              <Divider style={styles.divider} />
+            </View>
             <View style={styles.subjectAnalysisPickerView}>
               <Picker
                 mode="dropdown"
@@ -146,6 +151,19 @@ const styles = StyleSheet.create({
   subjectAnalysisPickerView: {
     borderColor: Colors.primary,
     borderWidth: 1,
+    marginBottom: 20,
+  },
+  divider: { borderWidth: 1, borderColor: Colors.secondary },
+  verifyYourself: {
+    color: "#000",
+    fontSize: 23,
+    textAlign: "center",
+    marginBottom: 20,
+  },
+  dividerView: {
+    flexDirection: "column",
+    justifyContent: "center",
+    paddingHorizontal: Dimensions.get("screen").width / 3,
     marginBottom: 20,
   },
 });

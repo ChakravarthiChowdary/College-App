@@ -26,21 +26,17 @@ const ResultsItem = ({ navigation, resultItem }) => {
 
 const styles = StyleSheet.create({
   resultsItemView: {
-    elevation: 5,
-    shadowColor: "#ccc",
-    backgroundColor: "#ec407a",
-    shadowOpacity: 5,
-
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "center",
     marginTop: 10,
     padding: 20,
     borderRadius: 8,
+    borderColor: Colors.secondary,
+    borderWidth: 2,
   },
   resultsItemText: {
-    fontFamily: "RobotoBold",
-    color: "#fff",
+    color: "#000",
     fontSize: 16,
   },
 });

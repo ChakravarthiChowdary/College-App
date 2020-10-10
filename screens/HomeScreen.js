@@ -1,11 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import {
-  View,
-  ScrollView,
-  Platform,
-  BackHandler,
-  AppState,
-} from "react-native";
+import { View, ScrollView, Platform, AppState, Image } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import { HeaderButtons, Item } from "react-navigation-header-buttons";
 import * as LocalAuthentication from "expo-local-authentication";
@@ -14,41 +8,37 @@ import AsyncStorage from "@react-native-community/async-storage";
 import HeaderButton from "../components/HeaderButton";
 import PrincipalMessage from "../components/PrincipalMessage";
 import Placements from "../components/Placements";
+import HomeHeaderButtons from "../components/HomeHeaderButtons";
 import {
   autoLogin,
   BIOMETRIC_VERIFIED_ERROR,
   BIOMETRIC_VERIFIED_SUCCESS,
   LOG_OUT,
 } from "../store/actions/authActions";
+import SnackBar from "../components/SnackBar";
+import { Colors } from "../constants/Colors";
 
 const HomeScreen = ({ navigation }) => {
   const dispatch = useDispatch();
   const appState = useRef(AppState.currentState);
   const { authInfo, biometric } = useSelector((state) => state.auth);
   const [appStateVisible, setAppStateVisible] = useState(appState.current);
-  let isNotCancelled = true;
+  const [visible, setVisible] = useState(false);
+  const [message, setMessage] = useState("");
+  const [color, setColor] = useState(null);
+
+  const onDismissSnackBar = () => {
+    setVisible(false);
+    setMessage("");
+  };
 
   const _handleAppStateChange = (nextAppState) => {
-    if (
-      appState.current.match(/inactive|background/) &&
-      nextAppState === "active"
-    ) {
-    }
-
     appState.current = nextAppState;
     setAppStateVisible(appState.current);
   };
 
   useEffect(() => {
-    const autoLoginFunc = async () => {
-      const authStorage = await AsyncStorage.getItem("auth");
-      if (authStorage) {
-        dispatch(autoLogin());
-        AppState.addEventListener("change", _handleAppStateChange);
-      }
-    };
-
-    autoLoginFunc();
+    AppState.addEventListener("change", _handleAppStateChange);
 
     return () => {
       AppState.removeEventListener("change", _handleAppStateChange);
@@ -57,66 +47,61 @@ const HomeScreen = ({ navigation }) => {
 
   useEffect(() => {
     navigation.setOptions({
-      headerRight: () => (
-        <HeaderButtons HeaderButtonComponent={HeaderButton}>
-          <Item
-            iconName={
-              Platform.OS === "android"
-                ? authInfo
-                  ? "md-exit"
-                  : "md-contact"
-                : authInfo
-                ? "ios-exit"
-                : "ios-contact"
-            }
-            iconSize={23}
-            onPress={
-              authInfo
-                ? () => dispatch({ type: LOG_OUT })
-                : () =>
-                    navigation.navigate("homeloginscreen", {
-                      fromScreen: "home",
-                    })
-            }
-          />
-        </HeaderButtons>
-      ),
+      headerRight: () => <HomeHeaderButtons navigation={navigation} />,
     });
   }, [authInfo]);
 
   useEffect(() => {
     const authenticate = async () => {
       try {
-        if (
-          LocalAuthentication.hasHardwareAsync() &&
-          LocalAuthentication.isEnrolledAsync()
-        ) {
-          const res = await LocalAuthentication.authenticateAsync({
-            promptMessage: "Authenticate",
-          });
+        const hasHardwareAndEnrolled =
+          (await LocalAuthentication.hasHardwareAsync()) &&
+          (await LocalAuthentication.isEnrolledAsync());
 
-          if (res.error) {
-            dispatch({ type: BIOMETRIC_VERIFIED_ERROR });
-            dispatch({ type: LOG_OUT });
-            BackHandler.exitApp();
-          } else {
-            dispatch({ type: BIOMETRIC_VERIFIED_SUCCESS });
+        if (hasHardwareAndEnrolled) {
+          const hasAuthInfo = await AsyncStorage.getItem("auth");
+          if (hasAuthInfo) {
+            const res = await LocalAuthentication.authenticateAsync({
+              promptMessage: "Authenticate",
+            });
+
+            if (res.error) {
+              dispatch({ type: BIOMETRIC_VERIFIED_ERROR });
+              dispatch({ type: LOG_OUT });
+              setVisible(true);
+              setMessage("You are logged out !");
+            } else {
+              dispatch(autoLogin());
+              dispatch({ type: BIOMETRIC_VERIFIED_SUCCESS });
+              setVisible(true);
+              setMessage("You are logged in !");
+              setColor(Colors.primary);
+            }
           }
+        } else {
+          dispatch({ type: LOG_OUT });
         }
       } catch (error) {
         console.log("from catch", error);
       }
     };
 
-    if (authInfo && !biometric && appStateVisible === "active") authenticate();
-  }, [appStateVisible, authInfo]);
+    if (!biometric && appStateVisible === "active") authenticate();
+  }, [appStateVisible]);
 
   return (
-    <View style={{ margin: 10 }}>
+    <View style={{ padding: 10, backgroundColor: "#fff" }}>
       <ScrollView>
         <PrincipalMessage />
         <Placements />
       </ScrollView>
+      <SnackBar
+        message={message}
+        visible={visible}
+        onDismissSnackBar={onDismissSnackBar}
+        color={color}
+        styles={{ marginBottom: 10 }}
+      />
     </View>
   );
 };

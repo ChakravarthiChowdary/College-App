@@ -5,6 +5,7 @@ import {
   StyleSheet,
   View,
   RefreshControl,
+  ImageBackground,
 } from "react-native";
 import { HeaderButtons, Item } from "react-navigation-header-buttons";
 import { useDispatch, useSelector } from "react-redux";
@@ -53,11 +54,10 @@ const AvailableResultsScreen = ({ navigation }) => {
 
   return (
     <View style={styles.resultsOuterView}>
-      <View style={styles.resultsTitleView}>
-        <Text style={styles.resultsTextHeading}>AVAILABLE RESULTS</Text>
+      <View style={styles.titleView}>
+        <Text style={styles.heading}>AVAILABLE RESULTS</Text>
         <Divider style={styles.divider} />
       </View>
-
       {availableResultsLoading ? (
         <Loading size="small" color={Colors.primary} />
       ) : (
@@ -96,13 +96,21 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontFamily: "RobotoBold",
     marginBottom: 10,
+    color: "#fff",
   },
-  resultsTitleView: {
-    width: "100%",
+  titleView: {
     marginHorizontal: 20,
-    marginVertical: 10,
+    flexDirection: "column",
+    alignItems: "center",
+    marginTop: 20,
   },
-  divider: { borderWidth: 1, width: 100, borderColor: Colors.secondary },
+  divider: {
+    borderColor: Colors.secondary,
+    borderWidth: 1,
+    width: 100,
+    marginVertical: 15,
+  },
+  heading: { fontSize: 18, color: "#000" },
 });
 
 export const availableResultsScreenOptions = (navData) => {

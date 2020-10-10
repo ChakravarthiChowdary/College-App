@@ -50,8 +50,10 @@ const ResultsScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>Result for {studentData.id}</Text>
-      <Divider style={styles.divider} />
+      <View style={styles.titleView}>
+        <Text style={styles.heading}>RESULT FOR {studentData.id}</Text>
+        <Divider style={styles.divider} />
+      </View>
       <Table borderStyle={{ borderWidth: 2, borderColor: "#c8e1ff" }}>
         <Row data={tableNameHead} style={styles.head} textStyle={styles.text} />
         <Row
@@ -95,13 +97,20 @@ const styles = StyleSheet.create({
   head: { height: 40, backgroundColor: "#f1f8ff" },
   text: { marginVertical: 5, marginHorizontal: 2, paddingHorizontal: 3 },
   wrapper: { flexDirection: "row" },
+  titleView: {
+    marginHorizontal: 20,
+    flexDirection: "column",
+    alignItems: "center",
+    marginTop: 10,
+  },
   divider: {
+    borderColor: Colors.secondary,
     borderWidth: 1,
     width: 100,
-    borderColor: Colors.secondary,
-    marginVertical: 20,
+    marginTop: 15,
+    marginBottom: 20,
   },
-  heading: { fontSize: 16, fontFamily: "RobotoBold" },
+  heading: { fontSize: 18, color: "#000", fontFamily: "RobotoBold" },
 });
 
 export const resultsScreenOptions = {

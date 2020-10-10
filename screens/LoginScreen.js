@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 import {
   Dimensions,
+  ImageBackground,
   Keyboard,
   KeyboardAvoidingView,
   StyleSheet,
   TouchableWithoutFeedback,
   View,
 } from "react-native";
-import { Button, Switch } from "react-native-paper";
+import { Button, Divider, Switch } from "react-native-paper";
 import { HeaderButtons, Item } from "react-navigation-header-buttons";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -38,7 +39,7 @@ const LoginScreen = ({ navigation, route }) => {
       );
     } else {
       setVisible(true);
-      setMessage("Fill all fields !");
+      setMessage("All fields are mandatory !");
     }
   };
 
@@ -51,69 +52,103 @@ const LoginScreen = ({ navigation, route }) => {
 
   const onToggleSwitch = () => setIsSwitchOn(!isSwitchOn);
   return (
-    <KeyboardAvoidingView behavior="position" style={{ flex: 1 }}>
-      <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
-        <View style={styles.OuterView}>
-          <View style={styles.InnerView}>
-            <View style={styles.InputView}>
-              <TextInput
-                label="StudentID@vrsec.com"
-                mode="flat"
-                style={{ backgroundColor: "#fff" }}
-                onChangeText={(text) => setEmail(text)}
-              />
-            </View>
-            <View style={styles.InputView}>
-              <TextInput
-                label="Password"
-                mode="flat"
-                style={{ backgroundColor: "#fff" }}
-                secureTextEntry={!isSwitchOn}
-                onChangeText={(text) => setPassword(text)}
-              />
-            </View>
-            <View style={styles.ShowPassword}>
-              <Text style={{ fontFamily: "RobotoBold" }}>Show Password</Text>
-              <Switch
-                value={isSwitchOn}
-                onValueChange={onToggleSwitch}
-                color={Colors.primary}
-              />
-            </View>
-            <TouchableOpacity
-              style={styles.ForgotPassword}
-              onPress={
-                route.params
-                  ? route.params.fromScreen
-                    ? () => navigation.navigate("homeforgotpassword")
-                    : () => navigation.navigate("forgotpassword")
-                  : () => navigation.navigate("forgotpassword")
-              }
-            >
-              <View>
-                <Text>Forgot Password?</Text>
+    <ImageBackground
+      style={styles.image}
+      source={require("../assets/backgroundimage.png")}
+    >
+      <View style={styles.backgroundBlack}>
+        <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
+          <View style={{ flex: 1, height: "100%" }}>
+            <KeyboardAvoidingView behavior="position" style={styles.OuterView}>
+              <Text style={styles.verifyYourself}>Verify Yourself</Text>
+              <View style={styles.dividerView}>
+                <Divider style={styles.divider} />
               </View>
-            </TouchableOpacity>
-            <View style={styles.ButtonView}>
-              <Button
-                mode="contained"
-                color={Colors.secondary}
-                onPress={loginPressedHandler}
-                loading={loading}
-              >
-                LOGIN
-              </Button>
-            </View>
+              <View style={styles.InnerView}>
+                <View style={styles.InputView}>
+                  <TextInput
+                    mode="flat"
+                    style={styles.inputText}
+                    textcolor="#fff"
+                    placeholderColor="#fff"
+                    colorprimary="#fff"
+                    onChangeText={(text) => setEmail(text)}
+                    placeholder="StudentID@vrsec.com"
+                  />
+                </View>
+                <View style={styles.InputView}>
+                  <TextInput
+                    placeholder="Password"
+                    mode="flat"
+                    textcolor="#fff"
+                    placeholderColor="#fff"
+                    colorprimary="#fff"
+                    style={styles.inputText}
+                    secureTextEntry={!isSwitchOn}
+                    onChangeText={(text) => setPassword(text)}
+                  />
+                </View>
+                <View style={styles.ShowPassword}>
+                  <Text
+                    style={{
+                      color: "#fff",
+                      fontSize: 16,
+                    }}
+                  >
+                    Show Password
+                  </Text>
+                  <Switch
+                    value={isSwitchOn}
+                    onValueChange={onToggleSwitch}
+                    color="#fff"
+                  />
+                </View>
+                <TouchableOpacity
+                  style={styles.ForgotPassword}
+                  onPress={
+                    route.params
+                      ? route.params.fromScreen
+                        ? () => navigation.navigate("homeforgotpassword")
+                        : () => navigation.navigate("forgotpassword")
+                      : () => navigation.navigate("forgotpassword")
+                  }
+                >
+                  <View>
+                    <Text
+                      style={{
+                        color: "#fff",
+                        fontSize: 16,
+                      }}
+                    >
+                      Forgot Password?
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+                <View style={styles.ButtonView}>
+                  <Button
+                    mode="contained"
+                    color={Colors.secondary}
+                    onPress={loginPressedHandler}
+                    loading={loading}
+                  >
+                    LOGIN
+                  </Button>
+                </View>
+              </View>
+            </KeyboardAvoidingView>
+            <Snackbar
+              visible={visible}
+              message={message}
+              onDismissSnackBar={() => setVisible(false)}
+              styles={{
+                marginBottom: Dimensions.get("screen").height / 20,
+                marginHorizontal: 20,
+              }}
+            />
           </View>
-          <Snackbar
-            visible={visible}
-            message={message}
-            onDismissSnackBar={() => setVisible(false)}
-            styles={{ marginBottom: 0 }}
-          />
-        </View>
-      </TouchableWithoutFeedback>
-    </KeyboardAvoidingView>
+        </TouchableWithoutFeedback>
+      </View>
+    </ImageBackground>
   );
 };
 
@@ -125,17 +160,15 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   InnerView: {
-    elevation: 5,
-    shadowColor: "#ccc",
-    shadowOpacity: 5,
-    backgroundColor: "#fff",
-    padding: 10,
+    padding: 15,
   },
   ButtonView: {
     marginTop: 20,
   },
   InputView: {
     marginBottom: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: "#fff",
   },
   ShowPassword: {
     flexDirection: "row",
@@ -144,6 +177,25 @@ const styles = StyleSheet.create({
   },
   ForgotPassword: {
     marginVertical: 10,
+  },
+  image: {
+    flex: 1,
+    resizeMode: "cover",
+    justifyContent: "center",
+  },
+  backgroundBlack: { height: "100%", backgroundColor: "rgba(0,0,0,0.6)" },
+  inputText: { backgroundColor: "transparent", fontSize: 16 },
+  divider: { borderWidth: 1, borderColor: "#fff" },
+  verifyYourself: {
+    color: "#fff",
+    fontSize: 23,
+    textAlign: "center",
+    marginBottom: 20,
+  },
+  dividerView: {
+    flexDirection: "column",
+    justifyContent: "center",
+    paddingHorizontal: Dimensions.get("screen").width / 3,
   },
 });
 

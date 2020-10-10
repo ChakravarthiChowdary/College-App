@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import { Avatar } from "react-native-paper";
+import { Avatar, Divider } from "react-native-paper";
 import { useSelector } from "react-redux";
 
 import { Colors } from "../constants/Colors";
@@ -33,10 +33,15 @@ const styles = StyleSheet.create({
   ProfileView: {
     flexDirection: "column",
     alignItems: "center",
-    marginTop: 10,
+    marginVertical: 20,
   },
-  ProfileName: { fontFamily: "RobotoBold", fontSize: 18, marginBottom: 5 },
-  ProfileId: { fontSize: 14, textAlign: "center" },
+  ProfileName: {
+    fontFamily: "RobotoBold",
+    fontSize: 18,
+    marginBottom: 5,
+    color: "#000",
+  },
+  ProfileId: { fontSize: 14, textAlign: "center", color: "#000" },
 });
 
 export default ProfileSection;

@@ -24,6 +24,7 @@ const PrivacyScreen = () => {
 const styles = StyleSheet.create({
   privacyScreenOuterView: {
     margin: 10,
+    padding: 10,
   },
   divider: {
     borderWidth: 1,
@@ -32,7 +33,7 @@ const styles = StyleSheet.create({
     marginVertical: 10,
   },
   privacyHeading: {
-    fontSize: 16,
+    fontSize: 20,
     fontFamily: "RobotoBold",
   },
 });

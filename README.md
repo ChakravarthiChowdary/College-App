@@ -11,6 +11,10 @@ This is built using React-Native, React Hooks and Redux.
 
 <img  src="https://github.com/ChakravarthiChowdary/College-App/blob/master/assets/app4.png" width="300" height="600" />
 
+<img align="left" src="https://github.com/ChakravarthiChowdary/College-App/blob/master/assets/app5.png" width="300" height="600" />
+
+<img  src="https://github.com/ChakravarthiChowdary/College-App/blob/master/assets/app6.png" width="300" height="600" />
+
 ## Installation
 
 Install Expo-Client App in the mobile and run the following commands.

@@ -7,6 +7,7 @@ import thunk from "redux-thunk";
 
 import AppNavigator from "./navigation/AppNavigator";
 import authReducer from "./store/reducers/authReducer";
+import commonReducer from "./store/reducers/commonReducer";
 import contactReducer from "./store/reducers/contactReducer";
 import resultsReducer from "./store/reducers/resultsReducer";
 
@@ -14,6 +15,7 @@ const rootReducer = combineReducers({
   results: resultsReducer,
   auth: authReducer,
   contact: contactReducer,
+  common: commonReducer,
 });
 const store = createStore(rootReducer, applyMiddleware(thunk));
 

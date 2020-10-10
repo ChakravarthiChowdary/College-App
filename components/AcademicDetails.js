@@ -4,6 +4,8 @@ import { useSelector } from "react-redux";
 import { Table, Row, Rows, TableWrapper } from "react-native-table-component";
 
 import Text from "../components/Text";
+import { Colors } from "../constants/Colors";
+import { Divider } from "react-native-paper";
 
 const AcademicDetails = () => {
   const studentData = useSelector((state) =>

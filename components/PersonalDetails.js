@@ -3,6 +3,8 @@ import { View, Text, StyleSheet } from "react-native";
 import { Divider } from "react-native-paper";
 import { useSelector } from "react-redux";
 
+import { Colors } from "../constants/Colors";
+
 const PersonalDetails = () => {
   const studentData = useSelector((state) =>
     state.auth.studentInfo ? state.auth.studentInfo : {}
@@ -10,7 +12,13 @@ const PersonalDetails = () => {
   return (
     <View style={styles.PersonalDetailsOuterView}>
       <Text style={styles.Title}>Personal Details: </Text>
-      <Divider style={{ backgroundColor: "grey", marginVertical: 10 }} />
+      <Divider
+        style={{
+          marginVertical: 10,
+          borderWidth: 1,
+          borderColor: Colors.secondary,
+        }}
+      />
       <View style={styles.PersonalDetailsView}>
         <View>
           <Text style={styles.PersonalHeading}>Name</Text>
@@ -64,6 +72,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginBottom: 10,
     fontFamily: "RobotoBold",
+    color: Colors.secondary,
   },
   PersonalHeading: { fontFamily: "RobotoBold" },
 });

@@ -7,7 +7,7 @@ import {
   TouchableWithoutFeedback,
   View,
 } from "react-native";
-import { Button } from "react-native-paper";
+import { Button, Divider } from "react-native-paper";
 import { useDispatch, useSelector } from "react-redux";
 
 import { Colors } from "../constants/Colors";
@@ -15,6 +15,7 @@ import { getResult } from "../store/actions/resultsActions";
 import { GetResultsContext } from "../utils/Context";
 import { CLEAR_RESULT_STATE } from "../store/actions/resultsActions";
 import TextInput from "../components/TextInput";
+import Text from "../components/Text";
 import Snackbar from "../components/SnackBar";
 
 const GetResultsScreen = ({ navigation }) => {
@@ -67,6 +68,10 @@ const GetResultsScreen = ({ navigation }) => {
       <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
         <View style={styles.getResultsOuterView}>
           <View style={styles.getResultsInnerView}>
+            <Text style={styles.verifyYourself}>Get Results</Text>
+            <View style={styles.dividerView}>
+              <Divider style={styles.divider} />
+            </View>
             <View>
               <TextInput
                 label="Enter your HNO"
@@ -104,14 +109,15 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     justifyContent: "center",
     height: Dimensions.get("screen").height - 150,
-    margin: 10,
+
+    padding: 10,
   },
   getResultsInnerView: {
     elevation: 5,
     shadowColor: "#ccc",
     shadowOpacity: 5,
     backgroundColor: "#fff",
-    padding: 10,
+    padding: 20,
   },
   getResultsButtonView: {
     marginTop: 20,
@@ -124,6 +130,19 @@ const styles = StyleSheet.create({
   },
   getResultsLoadingView: {
     margin: 20,
+  },
+  divider: { borderWidth: 1, borderColor: Colors.secondary },
+  verifyYourself: {
+    color: "#000",
+    fontSize: 23,
+    textAlign: "center",
+    marginBottom: 20,
+  },
+  dividerView: {
+    flexDirection: "column",
+    justifyContent: "center",
+    paddingHorizontal: Dimensions.get("screen").width / 3,
+    marginBottom: 20,
   },
 });
 
