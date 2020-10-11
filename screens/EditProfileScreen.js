@@ -49,7 +49,7 @@ const EditProfileScreen = () => {
         if (
           firstname === studentInfo.firstname &&
           lastname === studentInfo.lastname &&
-          phone === studentInfo.phone &&
+          phone.toString() === studentInfo.phone.toString() &&
           date.toString() === new Date(studentInfo.dob).toString()
         ) {
           setVisible(true);

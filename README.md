@@ -30,7 +30,8 @@ scan the QR code of the expo-cli from your phone.
 ## Usage
 
 Login with StudentID: 148w1a0269@vrsec.com and password: testing.
-Check results for the student ids 148w1a0261 to 148w1a0269
+DOB for the above credentials is 25/07/1997 and mobile number is 9441811236.
+Check results for the student ids 148w1a0261 to 148w1a0269.
 For VR-12 Results check the ids 168w1a0261 to 168w1a0269
 
 ## Contributing

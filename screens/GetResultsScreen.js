@@ -78,6 +78,7 @@ const GetResultsScreen = ({ navigation }) => {
                 mode="outlined"
                 onChangeText={inputChangedHandler}
                 style={{ backgroundColor: "#fff" }}
+                onFocus={() => setVisible(false)}
               />
             </View>
             <View style={styles.getResultsButtonView}>
@@ -91,15 +92,15 @@ const GetResultsScreen = ({ navigation }) => {
               </Button>
             </View>
           </View>
-          <Snackbar
-            message={
-              resultError ? resultError.message : inputError ? inputError : ""
-            }
-            onDismissSnackBar={onDismissSnackBar}
-            visible={visible}
-          />
         </View>
       </TouchableWithoutFeedback>
+      <Snackbar
+        message={
+          resultError ? resultError.message : inputError ? inputError : ""
+        }
+        onDismissSnackBar={onDismissSnackBar}
+        visible={visible}
+      />
     </KeyboardAvoidingView>
   );
 };

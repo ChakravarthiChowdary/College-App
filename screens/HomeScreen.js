@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { Fragment, useEffect, useRef, useState } from "react";
 import { View, ScrollView, Platform, AppState, Image } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import { HeaderButtons, Item } from "react-navigation-header-buttons";
@@ -105,11 +105,13 @@ const HomeScreen = ({ navigation }) => {
   }
   return (
     principalMessage !== "" && (
-      <View style={{ padding: 10, backgroundColor: "#fff" }}>
-        <ScrollView>
-          <PrincipalMessage />
-          <Placements />
-        </ScrollView>
+      <Fragment>
+        <View style={{ padding: 10, backgroundColor: "#fff" }}>
+          <ScrollView>
+            <PrincipalMessage />
+            <Placements />
+          </ScrollView>
+        </View>
         <SnackBar
           message={message}
           visible={visible}
@@ -117,7 +119,7 @@ const HomeScreen = ({ navigation }) => {
           color={color}
           styles={{ marginBottom: 10 }}
         />
-      </View>
+      </Fragment>
     )
   );
 };
