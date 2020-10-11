@@ -5,9 +5,15 @@ import { useSelector } from "react-redux";
 
 import Text from "../components/Text";
 import { Colors } from "../constants/Colors";
+import Loading from "../components/Loading";
+import Error from "../components/Error";
+import { getPrivacyUpdateLog } from "../store/actions/commonActions";
 
 const CurrentVersionScreen = () => {
-  const updateText = useSelector((state) => state.common.updateText);
+  const { updateText, loading, error } = useSelector((state) => state.common);
+  if (loading) {
+    return <Loading size="small" color={Colors.primary} />;
+  }
   return (
     <View style={{ flex: 1, margin: 10 }}>
       <View style={{ padding: 10 }}>
@@ -15,9 +21,13 @@ const CurrentVersionScreen = () => {
         <View style={styles.dividerView}>
           <Divider style={styles.divider} />
         </View>
-        <View style={{ marginVertical: 10 }}>
-          <Text style={{ fontSize: 16 }}>{updateText}</Text>
-        </View>
+        {error ? (
+          <Error error={error.message} action={getPrivacyUpdateLog} />
+        ) : (
+          <View style={{ marginVertical: 10 }}>
+            <Text style={{ fontSize: 16 }}>{updateText}</Text>
+          </View>
+        )}
       </View>
     </View>
   );

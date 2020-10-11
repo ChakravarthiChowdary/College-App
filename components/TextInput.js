@@ -19,7 +19,6 @@ const TextInputComponent = (props) => {
         },
         roundness: 5,
       }}
-      onFocus={props.onFocus}
     />
   );
 };

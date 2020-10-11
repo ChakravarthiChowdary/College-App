@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Dimensions,
   Keyboard,
@@ -12,20 +12,82 @@ import {
 } from "react-native";
 import DateTimePicker from "@react-native-community/datetimepicker";
 import { Button, Divider } from "react-native-paper";
+import { useDispatch, useSelector } from "react-redux";
 
 import { Colors } from "../constants/Colors";
 import TextInput from "../components/TextInput";
 import Text from "../components/Text";
+import SnackBar from "../components/SnackBar";
+import {
+  CLEAR_FORGOT_PASSWORD,
+  forgotPassword,
+} from "../store/actions/authActions";
 
 const ForgotPasswordScreen = () => {
+  const dispatch = useDispatch();
+  //Component level state
   const [date, setDate] = useState(new Date());
   const [show, setShow] = useState(false);
+  const [studentId, setStudentId] = useState("");
+  const [phone, setPhone] = useState("");
+  const [error, setError] = useState(null);
+  const [visible, setVisible] = useState(false);
+  const [requestClicked, setRequestClicked] = useState(false);
+  //Redux level state
+  const { loading, forgotSuccess, forgotError } = useSelector(
+    (state) => state.auth
+  );
 
   const onChange = (event, selectedDate) => {
     const currentDate = selectedDate || date;
     setShow(Platform.OS === "ios");
     setDate(currentDate);
   };
+
+  const requestPasswordPressedHandler = () => {
+    Keyboard.dismiss();
+    setRequestClicked(true);
+    if (studentId !== "" && phone !== "") {
+      if (studentId.length === 20) {
+        const studentInfo = {
+          id: studentId.split("@")[0],
+          dob: date.toString(),
+          phone: phone,
+        };
+        dispatch(forgotPassword(studentInfo));
+      } else {
+        setVisible(true);
+        setError("Incorrect student mail id");
+      }
+    } else {
+      setVisible(true);
+      setError("All fields are mandatory !");
+    }
+  };
+
+  const focusHandler = () => {
+    setError(null);
+    setVisible(false);
+  };
+
+  useEffect(() => {
+    if (requestClicked) {
+      if (forgotError) {
+        setVisible(true);
+        setError(forgotError.message);
+      } else if (forgotSuccess) {
+        setVisible(true);
+        setDate(new Date());
+        setPhone("");
+        setStudentId("");
+        setError(forgotSuccess);
+      } else {
+        setVisible(false);
+        setError(null);
+      }
+      setRequestClicked(false);
+    }
+  }, [forgotError, forgotSuccess]);
 
   return (
     <ImageBackground
@@ -49,6 +111,9 @@ const ForgotPasswordScreen = () => {
                     textcolor="#fff"
                     placeholderColor="#fff"
                     colorprimary="#fff"
+                    value={studentId}
+                    onChangeText={(text) => setStudentId(text)}
+                    onFocus={focusHandler}
                   />
                 </View>
                 <TouchableOpacity onPress={() => setShow(true)}>
@@ -64,6 +129,7 @@ const ForgotPasswordScreen = () => {
                       placeholderColor="#fff"
                       colorprimary="#fff"
                       editable={false}
+                      onFocus={focusHandler}
                     />
                   </View>
                 </TouchableOpacity>
@@ -75,6 +141,9 @@ const ForgotPasswordScreen = () => {
                     textcolor="#fff"
                     placeholderColor="#fff"
                     colorprimary="#fff"
+                    value={phone}
+                    onChangeText={(text) => setPhone(text)}
+                    onFocus={focusHandler}
                   />
                 </View>
                 {show && (
@@ -88,7 +157,12 @@ const ForgotPasswordScreen = () => {
                   />
                 )}
                 <View style={styles.ButtonView}>
-                  <Button mode="contained" color={Colors.secondary}>
+                  <Button
+                    mode="contained"
+                    color={Colors.secondary}
+                    onPress={requestPasswordPressedHandler}
+                    loading={loading}
+                  >
                     Request Password
                   </Button>
                 </View>
@@ -96,6 +170,15 @@ const ForgotPasswordScreen = () => {
             </KeyboardAvoidingView>
           </View>
         </TouchableWithoutFeedback>
+        {error && (
+          <SnackBar
+            visible={visible}
+            onDismissSnackBar={() => setVisible(false)}
+            message={error}
+            color={forgotSuccess ? Colors.primary : Colors.secondary}
+            styles={{ marginBottom: 10 }}
+          />
+        )}
       </View>
     </ImageBackground>
   );

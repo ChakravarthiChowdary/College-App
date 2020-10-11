@@ -11,13 +11,7 @@ import { Colors } from "../constants/Colors";
 const SubjectAnalysisScreen = () => {
   const subjectanalysis = useSelector((state) => state.results.analysisSubject);
   const tableHead = ["SNO", "Student ID", "Score", "Grade", "Result"];
-  let tableData = [
-    ["1", "2", "3", "4"],
-    ["a", "b", "c", "d"],
-    ["1", "2", "3", "456\n789"],
-    ["a", "b", "c", "d"],
-  ];
-  tableData = [];
+  let tableData = [];
   let count = 0;
   let grade = "";
   for (let studentScore in subjectanalysis) {

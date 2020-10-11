@@ -8,19 +8,19 @@ import { Switch } from "react-native-paper";
 import HeaderButton from "../components/HeaderButton";
 import Text from "../components/Text";
 import { Colors } from "../constants/Colors";
-import { getUpdateLog } from "../store/actions/commonActions";
+import { getAppData } from "../store/actions/commonActions";
 import Loading from "../components/Loading";
 import { Fragment } from "react";
 
 const SettingsScreen = ({ navigation }) => {
   const dispatch = useDispatch();
-  const { version, loading } = useSelector((state) => state.common);
+  const { version, loading, updateText } = useSelector((state) => state.common);
   const [isSwitchOn, setIsSwitchOn] = React.useState(false);
 
   const onToggleSwitch = () => setIsSwitchOn(!isSwitchOn);
 
   useEffect(() => {
-    dispatch(getUpdateLog());
+    dispatch(getAppData());
   }, []);
 
   return (
@@ -97,26 +97,30 @@ const SettingsScreen = ({ navigation }) => {
           style={{ ...styles.settingsScreenCacheView, paddingRight: 10 }}
         >
           {loading ? (
-            <Loading size="small" />
+            <Loading size="small" color={Colors.primary} />
           ) : (
-            <Fragment>
-              <View style={styles.settingsScreenIconView}>
-                <Ionicons
-                  name={
-                    Platform.OS === "android"
-                      ? "md-information-circle"
-                      : "ios-information-circle"
-                  }
-                  size={32}
-                />
-                <View style={{ ...styles.settingsScreenText, marginLeft: 15 }}>
-                  <Text style={{ fontSize: 18 }}>Current version</Text>
+            updateText !== "" && (
+              <Fragment>
+                <View style={styles.settingsScreenIconView}>
+                  <Ionicons
+                    name={
+                      Platform.OS === "android"
+                        ? "md-information-circle"
+                        : "ios-information-circle"
+                    }
+                    size={32}
+                  />
+                  <View
+                    style={{ ...styles.settingsScreenText, marginLeft: 15 }}
+                  >
+                    <Text style={{ fontSize: 18 }}>Current version</Text>
+                  </View>
                 </View>
-              </View>
-              <View>
-                <Text>{version === 1 ? "1.0" : version}</Text>
-              </View>
-            </Fragment>
+                <View>
+                  <Text>{version === 1 ? "1.0" : version}</Text>
+                </View>
+              </Fragment>
+            )
           )}
         </TouchableOpacity>
       </View>

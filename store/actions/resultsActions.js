@@ -21,6 +21,7 @@ export const GET_COLLEGE_TOPPERS_FAIL = "GET_COLLEGE_TOPPERS_FAIL";
 export const CLEAR_RESULT_STATE = "CLEAR_RESULT_STATE";
 export const CLEAR_SUBJECT_ANALYSIS_ERROR_STATE =
   "CLEAR_SUBJECT_ANALYSIS_ERROR_STATE";
+export const CLEAR_TOPPERS = "CLEAR_TOPPERS";
 
 export const getAvailableResults = () => {
   return async (dispatch) => {
@@ -113,11 +114,12 @@ export const getSubjectAnalysis = (result, subject) => {
       const score = [];
 
       for (let key in allresults) {
-        score.push({
-          score: allresults[key][subject],
-          id: key,
-          subject: subject,
-        });
+        if (allresults[key][subject])
+          score.push({
+            score: allresults[key][subject],
+            id: key,
+            subject: subject,
+          });
       }
       dispatch({
         type: GET_ALL_RESULTS_SUCCESS,
@@ -151,6 +153,7 @@ export const getCollegeToppers = (result) => {
       resultsArray.sort((a, b) => {
         return a.SGPA > b.SGPA ? -1 : 1;
       });
+
       const toppersArray = resultsArray.slice(0, 5);
       const newToppersArray = [];
 

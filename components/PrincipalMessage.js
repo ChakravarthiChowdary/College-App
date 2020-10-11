@@ -1,13 +1,17 @@
 import React from "react";
 import { View, Image, Dimensions, StyleSheet } from "react-native";
 import { Divider } from "react-native-paper";
+import { useSelector } from "react-redux";
 
 import Text from "../components/Text";
 import { Colors } from "../constants/Colors";
 
 const PrincipalMessage = () => {
+  const principalMessage = useSelector(
+    (state) => state.common.principalMessage
+  );
   return (
-    <View>
+    <View style={{ paddingHorizontal: 5 }}>
       <Text style={styles.principalMessage}>Principle's Message</Text>
       <Divider style={styles.divider} />
       <Image
@@ -15,13 +19,7 @@ const PrincipalMessage = () => {
         style={styles.image}
       />
       <View>
-        <Text style={styles.messageText}>
-          The goal of the college is to train the students acquire the skills
-          set and social consciousness to make them industry ready professionals
-          who can with stand the global competition and can emerge successful in
-          their chosen professional career and offer technologically innovative
-          solutions to real time challenges.
-        </Text>
+        <Text style={styles.messageText}>{principalMessage}</Text>
       </View>
       <View style={{ marginVertical: 20 }}>
         <View style={{ flexDirection: "row" }}>
@@ -42,7 +40,11 @@ const styles = StyleSheet.create({
     height: Dimensions.get("screen").height / 3,
     marginVertical: 10,
   },
-  messageText: { fontSize: 16, lineHeight: 23, textAlign: "justify" },
+  messageText: {
+    fontSize: 16,
+    lineHeight: 23,
+    textAlign: "justify",
+  },
   name: {
     fontSize: 16,
     lineHeight: 23,

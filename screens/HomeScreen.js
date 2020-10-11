@@ -17,11 +17,17 @@ import {
 } from "../store/actions/authActions";
 import SnackBar from "../components/SnackBar";
 import { Colors } from "../constants/Colors";
+import { getAppData } from "../store/actions/commonActions";
+import Loading from "../components/Loading";
+import Error from "../components/Error";
 
 const HomeScreen = ({ navigation }) => {
   const dispatch = useDispatch();
   const appState = useRef(AppState.currentState);
   const { authInfo, biometric } = useSelector((state) => state.auth);
+  const { loading, error, principalMessage } = useSelector(
+    (state) => state.common
+  );
   const [appStateVisible, setAppStateVisible] = useState(appState.current);
   const [visible, setVisible] = useState(false);
   const [message, setMessage] = useState("");
@@ -38,6 +44,7 @@ const HomeScreen = ({ navigation }) => {
   };
 
   useEffect(() => {
+    dispatch(getAppData());
     AppState.addEventListener("change", _handleAppStateChange);
 
     return () => {
@@ -89,20 +96,29 @@ const HomeScreen = ({ navigation }) => {
     if (!biometric && appStateVisible === "active") authenticate();
   }, [appStateVisible]);
 
+  if (loading) {
+    return <Loading size="small" color={Colors.primary} />;
+  }
+
+  if (error) {
+    return <Error error={error.message} action={getAppData} />;
+  }
   return (
-    <View style={{ padding: 10, backgroundColor: "#fff" }}>
-      <ScrollView>
-        <PrincipalMessage />
-        <Placements />
-      </ScrollView>
-      <SnackBar
-        message={message}
-        visible={visible}
-        onDismissSnackBar={onDismissSnackBar}
-        color={color}
-        styles={{ marginBottom: 10 }}
-      />
-    </View>
+    principalMessage !== "" && (
+      <View style={{ padding: 10, backgroundColor: "#fff" }}>
+        <ScrollView>
+          <PrincipalMessage />
+          <Placements />
+        </ScrollView>
+        <SnackBar
+          message={message}
+          visible={visible}
+          onDismissSnackBar={onDismissSnackBar}
+          color={color}
+          styles={{ marginBottom: 10 }}
+        />
+      </View>
+    )
   );
 };
 

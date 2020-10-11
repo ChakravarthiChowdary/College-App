@@ -3,17 +3,22 @@ import { StyleSheet, View } from "react-native";
 import { Table, Row, Rows, TableWrapper } from "react-native-table-component";
 import { useDispatch, useSelector } from "react-redux";
 
-import { getCollegeToppers } from "../store/actions/resultsActions";
+import {
+  CLEAR_TOPPERS,
+  getCollegeToppers,
+} from "../store/actions/resultsActions";
 import { TabContext } from "../utils/Context";
 import Snackbar from "../components/SnackBar";
 import { Colors } from "../constants/Colors";
 import Loading from "../components/Loading";
 import Text from "../components/Text";
+import Error from "../components/Error";
 
 const CollegeToppersScreen = () => {
   const resultData = useContext(TabContext);
   const [visible, setVisible] = useState(false);
   const [message, setMessage] = useState("");
+  const [toppersList, setToppersList] = useState(null);
   const { toppersLoading, toppersError, toppers } = useSelector(
     (state) => state.results
   );
@@ -25,60 +30,74 @@ const CollegeToppersScreen = () => {
   const onDismissSnackBar = () => setVisible(false);
 
   useEffect(() => {
-    dispatch(getCollegeToppers(resultData));
+    if (!toppers) dispatch(getCollegeToppers(resultData));
   }, []);
 
   useEffect(() => {
     if (toppersError) {
       setVisible(true);
       setMessage(toppersError.message);
+    } else if (toppers) {
+      setToppersList(toppers);
+      dispatch({ type: CLEAR_TOPPERS });
     }
-  }, [toppersError]);
+  }, [toppersError, toppers]);
 
   if (toppersLoading) {
     return <Loading size="small" color={Colors.secondary} />;
   }
 
-  for (let key in toppers) {
+  for (let key in toppersList) {
     tableData.push([
-      toppers[key].id,
-      toppers[key].firstname + "\n" + toppers[key].lastname,
-      toppers[key].department,
+      toppersList[key].id,
+      toppersList[key].firstname + "\n" + toppersList[key].lastname,
+      toppersList[key].department,
       parseInt(key) + 1,
     ]);
   }
 
+  if (toppersError) {
+    return (
+      <Error
+        error={toppersError.message}
+        action={() => getCollegeToppers(resultData)}
+      />
+    );
+  }
+
   return (
-    <View style={styles.OuterView}>
-      <View style={styles.Heading}>
-        <Text style={{ fontFamily: "RobotoBold", fontSize: 20 }}>
-          COLLEGE TOPPERS OF {resultData.semester.toUpperCase()}
-        </Text>
-      </View>
-      <View style={styles.container}>
-        <Table borderStyle={{ borderWidth: 1 }}>
-          <Row
-            data={tableHead}
-            flexArr={[2, 2, 1, 1]}
-            style={styles.head}
-            textStyle={styles.text}
-          />
-          <TableWrapper style={styles.wrapper}>
-            <Rows
-              data={tableData}
+    toppersList && (
+      <View style={styles.OuterView}>
+        <View style={styles.Heading}>
+          <Text style={{ fontFamily: "RobotoBold", fontSize: 20 }}>
+            COLLEGE TOPPERS OF {resultData.semester.toUpperCase()}
+          </Text>
+        </View>
+        <View style={styles.container}>
+          <Table borderStyle={{ borderWidth: 1 }}>
+            <Row
+              data={tableHead}
               flexArr={[2, 2, 1, 1]}
-              style={styles.row}
+              style={styles.head}
               textStyle={styles.text}
             />
-          </TableWrapper>
-        </Table>
+            <TableWrapper style={styles.wrapper}>
+              <Rows
+                data={tableData}
+                flexArr={[2, 2, 1, 1]}
+                style={styles.row}
+                textStyle={styles.text}
+              />
+            </TableWrapper>
+          </Table>
+        </View>
+        <Snackbar
+          visible={visible}
+          message={message}
+          onDismissSnackBar={onDismissSnackBar}
+        />
       </View>
-      <Snackbar
-        visible={visible}
-        message={message}
-        onDismissSnackBar={onDismissSnackBar}
-      />
-    </View>
+    )
   );
 };
 

@@ -1,6 +1,19 @@
 {
-  "updatelog": {
-    "text": "1. Fixed bugs (1301,1302)\n2. Improved performance.\n3. Added biometric unlock feature when logged in."
+  "appdata": {
+    "placements": {
+      "honestmessage": "Placement Cell has a full time Placement Officer. The Cell is devoted to cater to the needs of the organizations in conducting campus interviews for placements. Interactions with organizations are regularly done for placement requirements. Placement cell also conducts career guidance cement requirements. Placement cell also conducts career guidance workshops to the final and pre final year\nstudents.",
+      "objective": "The objective of Training & Placement Department is to equip students with globally employable skills through training and to help them attain their desired employment and career goals."
+    },
+    "principalMessage": {
+      "text": "The goal of the college is to train the students acquire the skills set and social consciousness to make them industry ready professionals who can with stand the global competition and can emerge successful in their chosen professional career and offer technologically innovative solutions to real time challenges."
+    },
+    "privacypolicy": {
+      "text": "Your privacy is important to us. Sometimes we need information to provide services that you request, this privacy statement applies to Justapps Apps and its product King of status.\nPersonal Information\n\nWe DO NOT collect, store or use any personal information while you visit, download or upgrade our products.\n\nWe may use personal information submitted by you only for the following purposes: help us develop, deliver, and improve our products and services and supply higher quality service; manage online surveys and other activities you’ve participated in.\nIn the following circumstances, we may disclose your personal information according to your wish or regulations by law:\n (1) Your prior permission;\n(2) By the applicable law within or outside your country of residence, legal process, litigation requests;\n (3) By requests from public and governmental authorities;\n· (4) To protect our legal rights and interests.\n\nNon- Personal Information\n\nWe may collect and use non-personal information in the following circumstances. To have a better understanding in user’s behavior, solve problems in products and services, improve our products, services and advertising, we may collect non-personal information such as installed application name and package name, the data of install, frequency of use, country, equipment and channel.\nIf non-personal information is combined with personal information, we treat the combined information as personal information for the purposes of this Privacy Policy.\nInformation we get from your use of our services\nWe may collect information about the services that you use and how you use them, such as when you view and interact with our content. We may collect device-specific information (such as your hardware model, operating system version, unique device identifiers, device settings, device language and mobile network information). We will not share that information with third parties.\n\nPermissions in the King of status App are the following:\nGet Accounts\nThis permission is needed for making a selection list with your google accounts in the app, when you are exporting/importing King of status data to/from google drive.\n\nAccess Network State\nThis permission is needed for checking if you are connected to the internet when you are exporting/importing King of status data to/from google drive.\nInternet\n"
+    },
+    "updatelog": {
+      "text": "1. Fixed bugs (1301,1302)\n2. Improved performance.\n3. Added biometric unlock feature when logged in.",
+      "version": 1.0
+    }
   },
   "contactus": {
     "-MIyRSsmD0KgMM4_-nBq": {
@@ -39,6 +52,126 @@
       "results": {
         "sem1": {
           "studentsresults": {
+            "148w1a0161": {
+              "14EC3501": 8,
+              "14EC3502": 8,
+              "14EC3503": 9,
+              "14EC3504": 10,
+              "14EC3506": 7,
+              "14EC3507": 7,
+              "CGPA": 7.9,
+              "SGPA": 5,
+              "department": "ECE",
+              "id": "148w1a0161"
+            },
+            "148w1a0162": {
+              "14EC3501": 8,
+              "14EC3502": 7,
+              "14EC3503": 5,
+              "14EC3504": 9,
+              "14EC3506": 10,
+              "14EC3507": 8,
+              "CGPA": 7.8,
+              "SGPA": 8.9,
+              "department": "ECE",
+              "id": "148w1a0162"
+            },
+            "148w1a0163": {
+              "14EC3501": 7,
+              "14EC3502": 8,
+              "14EC3503": 9,
+              "14EC3504": 9,
+              "14EC3506": 10,
+              "14EC3507": 10,
+              "CGPA": 7.3,
+              "SGPA": 8.4,
+              "department": "ECE",
+              "id": "148w1a0163"
+            },
+            "148w1a0164": {
+              "14EC3501": 7,
+              "14EC3502": 7,
+              "14EC3503": 8,
+              "14EC3504": 9,
+              "14EC3506": 10,
+              "14EC3507": 8,
+              "CGPA": 7,
+              "SGPA": 8,
+              "department": "ECE",
+              "id": "148w1a0164"
+            },
+            "148w1a0165": {
+              "14EC3501": 8,
+              "14EC3502": 7,
+              "14EC3503": 9,
+              "14EC3504": 9,
+              "14EC3506": 8,
+              "14EC3507": 8,
+              "CGPA": 7.6,
+              "SGPA": 8,
+              "department": "ECE",
+              "id": "148w1a0165"
+            },
+            "148w1a0166": {
+              "14EC3501": 8,
+              "14EC3502": 7,
+              "14EC3503": 9,
+              "14EC3504": 9,
+              "14EC3506": 10,
+              "14EC3507": 8,
+              "CGPA": 8.8,
+              "SGPA": 7.6,
+              "department": "ECE",
+              "id": "148w1a0166"
+            },
+            "148w1a0167": {
+              "14EC3501": 7,
+              "14EC3502": 7,
+              "14EC3503": 8,
+              "14EC3504": 8,
+              "14EC3506": 6,
+              "14EC3507": 9,
+              "CGPA": 7.8,
+              "SGPA": 8.1,
+              "department": "ECE",
+              "id": "148w1a0167"
+            },
+            "148w1a0168": {
+              "14EC3501": 9,
+              "14EC3502": 8,
+              "14EC3503": 8,
+              "14EC3504": 8,
+              "14EC3506": 4,
+              "14EC3507": 10,
+              "CGPA": 5,
+              "SGPA": 8.2,
+              "department": "ECE",
+              "id": "148w1a0168"
+            },
+            "148w1a0169": {
+              "14EC3501": 9,
+              "14EC3502": 10,
+              "14EC3503": 9,
+              "14EC3504": 10,
+              "14EC3506": 10,
+              "14EC3507": 8,
+              "CGPA": 9,
+              "SGPA": 9.2,
+              "department": "ECE",
+              "id": "148w1a0169"
+            },
+            "148w1a0170": {
+              "14EC3501": 9,
+              "14EC3502": 9,
+              "14EC3503": 9,
+              "14EC3504": 10,
+              "14EC3506": 10,
+              "14EC3507": 8,
+              "CGPA": 8.5,
+              "SGPA": 8.2,
+              "department": "ECE",
+              "id": "148w1a0170"
+            },
             "148w1a0261": {
               "14EE3501": 8,
               "14EE3502": 8,
@@ -48,7 +181,7 @@
               "14EE3507": 7,
               "CGPA": 7.9,
               "SGPA": 5,
-              "department": "EEE",
+              "department": "CSE",
               "id": "148w1a0261"
             },
             "148w1a0262": {
@@ -60,7 +193,7 @@
               "14EE3507": 8,
               "CGPA": 7.8,
               "SGPA": 8.9,
-              "department": "EEE",
+              "department": "CSE",
               "id": "148w1a0262"
             },
             "148w1a0263": {
@@ -278,9 +411,255 @@
               "SGPA": 8.29,
               "department": "EEE",
               "id": "148w1a0280"
+            },
+            "148w1a0361": {
+              "14ME3501": 8,
+              "14ME3502": 8,
+              "14ME3503": 9,
+              "14ME3504": 10,
+              "14ME3506": 7,
+              "14ME3507": 7,
+              "CGPA": 7.9,
+              "SGPA": 5,
+              "department": "MEC",
+              "id": "148w1a0361"
+            },
+            "148w1a0362": {
+              "14ME3501": 8,
+              "14ME3502": 7,
+              "14ME3503": 5,
+              "14ME3504": 9,
+              "14ME3506": 10,
+              "14ME3507": 8,
+              "CGPA": 7.8,
+              "SGPA": 8.9,
+              "department": "MEC",
+              "id": "148w1a0362"
+            },
+            "148w1a0363": {
+              "14ME3501": 7,
+              "14ME3502": 8,
+              "14ME3503": 9,
+              "14ME3504": 9,
+              "14ME3506": 10,
+              "14ME3507": 10,
+              "CGPA": 7.3,
+              "SGPA": 8.4,
+              "department": "MEC",
+              "id": "148w1a0363"
+            },
+            "148w1a0364": {
+              "14ME3501": 7,
+              "14ME3502": 7,
+              "14ME3503": 8,
+              "14ME3504": 9,
+              "14ME3506": 10,
+              "14ME3507": 8,
+              "CGPA": 7,
+              "SGPA": 8,
+              "department": "MEC",
+              "id": "148w1a0364"
+            },
+            "148w1a0365": {
+              "14ME3501": 8,
+              "14ME3502": 7,
+              "14ME3503": 9,
+              "14ME3504": 9,
+              "14ME3506": 8,
+              "14ME3507": 8,
+              "CGPA": 7.6,
+              "SGPA": 8,
+              "department": "MEC",
+              "id": "148w1a0365"
+            },
+            "148w1a0366": {
+              "14ME3501": 8,
+              "14ME3502": 7,
+              "14ME3503": 9,
+              "14ME3504": 9,
+              "14ME3506": 10,
+              "14ME3507": 8,
+              "CGPA": 8.8,
+              "SGPA": 7.6,
+              "department": "MEC",
+              "id": "148w1a0366"
+            },
+            "148w1a0367": {
+              "14ME3501": 7,
+              "14ME3502": 7,
+              "14ME3503": 8,
+              "14ME3504": 8,
+              "14ME3506": 6,
+              "14ME3507": 9,
+              "CGPA": 7.8,
+              "SGPA": 8.1,
+              "department": "MEC",
+              "id": "148w1a0367"
+            },
+            "148w1a0368": {
+              "14ME3501": 9,
+              "14ME3502": 8,
+              "14ME3503": 8,
+              "14ME3504": 8,
+              "14ME3506": 4,
+              "14ME3507": 10,
+              "CGPA": 5,
+              "SGPA": 8.2,
+              "department": "MEC",
+              "id": "148w1a0368"
+            },
+            "148w1a0369": {
+              "14ME3501": 9,
+              "14ME3502": 10,
+              "14ME3503": 9,
+              "14ME3504": 10,
+              "14ME3506": 10,
+              "14ME3507": 8,
+              "CGPA": 9,
+              "SGPA": 9.2,
+              "department": "MEC",
+              "id": "148w1a0369"
+            },
+            "148w1a0370": {
+              "14ME3501": 9,
+              "14ME3502": 9,
+              "14ME3503": 9,
+              "14ME3504": 10,
+              "14ME3506": 10,
+              "14ME3507": 8,
+              "CGPA": 8.5,
+              "SGPA": 8.2,
+              "department": "MEC",
+              "id": "148w1a0370"
+            },
+            "148w1a0461": {
+              "14CS3501": 8,
+              "14CS3502": 8,
+              "14CS3503": 9,
+              "14CS3504": 10,
+              "14CS3506": 7,
+              "14CS3507": 7,
+              "CGPA": 7.9,
+              "SGPA": 5,
+              "department": "CSE",
+              "id": "148w1a0261"
+            },
+            "148w1a0462": {
+              "14CS3501": 8,
+              "14CS3502": 7,
+              "14CS3503": 5,
+              "14CS3504": 9,
+              "14CS3506": 10,
+              "14CS3507": 8,
+              "CGPA": 7.8,
+              "SGPA": 8.9,
+              "department": "CSE",
+              "id": "148w1a0462"
+            },
+            "148w1a0463": {
+              "14CS3501": 7,
+              "14CS3502": 8,
+              "14CS3503": 9,
+              "14CS3504": 9,
+              "14CS3506": 10,
+              "14CS3507": 10,
+              "CGPA": 7.3,
+              "SGPA": 8.4,
+              "department": "CSE",
+              "id": "148w1a0463"
+            },
+            "148w1a0464": {
+              "14CS3501": 7,
+              "14CS3502": 7,
+              "14CS3503": 8,
+              "14CS3504": 9,
+              "14CS3506": 10,
+              "14CS3507": 8,
+              "CGPA": 7,
+              "SGPA": 8,
+              "department": "CSE",
+              "id": "148w1a0464"
+            },
+            "148w1a0465": {
+              "14CS3501": 8,
+              "14CS3502": 7,
+              "14CS3503": 9,
+              "14CS3504": 9,
+              "14CS3506": 8,
+              "14CS3507": 8,
+              "CGPA": 7.6,
+              "SGPA": 8,
+              "department": "CSE",
+              "id": "148w1a0465"
+            },
+            "148w1a0466": {
+              "14CS3501": 8,
+              "14CS3502": 7,
+              "14CS3503": 9,
+              "14CS3504": 9,
+              "14CS3506": 10,
+              "14CS3507": 8,
+              "CGPA": 8.8,
+              "SGPA": 7.6,
+              "department": "CSE",
+              "id": "148w1a0466"
+            },
+            "148w1a0467": {
+              "14CS3501": 7,
+              "14CS3502": 7,
+              "14CS3503": 8,
+              "14CS3504": 8,
+              "14CS3506": 6,
+              "14CS3507": 9,
+              "CGPA": 7.8,
+              "SGPA": 8.1,
+              "department": "CSE",
+              "id": "148w1a0467"
+            },
+            "148w1a0468": {
+              "14CS3501": 9,
+              "14CS3502": 8,
+              "14CS3503": 8,
+              "14CS3504": 8,
+              "14CS3506": 4,
+              "14CS3507": 10,
+              "CGPA": 5,
+              "SGPA": 8.2,
+              "department": "CSE",
+              "id": "148w1a0468"
+            },
+            "148w1a0469": {
+              "14CS3501": 9,
+              "14CS3502": 10,
+              "14CS3503": 9,
+              "14CS3504": 10,
+              "14CS3506": 10,
+              "14CS3507": 8,
+              "CGPA": 9,
+              "SGPA": 9.2,
+              "department": "CSE",
+              "id": "148w1a0469"
+            },
+            "148w1a0470": {
+              "14CS3501": 9,
+              "14CS3502": 9,
+              "14CS3503": 9,
+              "14CS3504": 10,
+              "14CS3506": 10,
+              "14CS3507": 8,
+              "CGPA": 8.5,
+              "SGPA": 8.2,
+              "department": "CSE",
+              "id": "148w1a0470"
             }
           },
           "subjects": {
+            "14CS3501": "CSE",
+            "14CS3502": "CSE",
+            "14CS3503": "CSE",
+            "14CS3504": "CSE",
+            "14CS3506": "CSE",
+            "14CS3507": "CSE",
             "14EC3501": "ECE",
             "14EC3502": "ECE",
             "14EC3503": "ECE",
@@ -300,34 +679,1785 @@
             "14ME3506": "MEC",
             "14ME3507": "MEC"
           }
+        },
+        "sem2": {
+          "studentsresults": {
+            "148w1a0161": {
+              "14EC2501": 8,
+              "14EC2502": 8,
+              "14EC2503": 9,
+              "14EC2504": 10,
+              "14EC2506": 7,
+              "14EC2507": 7,
+              "CGPA": 7.9,
+              "SGPA": 5,
+              "department": "ECE",
+              "id": "148w1a0161"
+            },
+            "148w1a0162": {
+              "14EC2501": 8,
+              "14EC2502": 7,
+              "14EC2503": 5,
+              "14EC2504": 9,
+              "14EC2506": 10,
+              "14EC2507": 8,
+              "CGPA": 7.8,
+              "SGPA": 8.9,
+              "department": "ECE",
+              "id": "148w1a0162"
+            },
+            "148w1a0163": {
+              "14EC2501": 7,
+              "14EC2502": 8,
+              "14EC2503": 9,
+              "14EC2504": 9,
+              "14EC2506": 10,
+              "14EC2507": 10,
+              "CGPA": 7.3,
+              "SGPA": 8.4,
+              "department": "ECE",
+              "id": "148w1a0163"
+            },
+            "148w1a0164": {
+              "14EC2501": 7,
+              "14EC2502": 7,
+              "14EC2503": 8,
+              "14EC2504": 9,
+              "14EC2506": 10,
+              "14EC2507": 8,
+              "CGPA": 7,
+              "SGPA": 8,
+              "department": "ECE",
+              "id": "148w1a0164"
+            },
+            "148w1a0165": {
+              "14EC2501": 8,
+              "14EC2502": 7,
+              "14EC2503": 9,
+              "14EC2504": 9,
+              "14EC2506": 8,
+              "14EC2507": 8,
+              "CGPA": 7.6,
+              "SGPA": 8,
+              "department": "ECE",
+              "id": "148w1a0165"
+            },
+            "148w1a0166": {
+              "14EC2501": 8,
+              "14EC2502": 7,
+              "14EC2503": 9,
+              "14EC2504": 9,
+              "14EC2506": 10,
+              "14EC2507": 8,
+              "CGPA": 8.8,
+              "SGPA": 7.6,
+              "department": "ECE",
+              "id": "148w1a0166"
+            },
+            "148w1a0167": {
+              "14EC2501": 7,
+              "14EC2502": 7,
+              "14EC2503": 8,
+              "14EC2504": 8,
+              "14EC2506": 6,
+              "14EC2507": 9,
+              "CGPA": 7.8,
+              "SGPA": 8.1,
+              "department": "ECE",
+              "id": "148w1a0167"
+            },
+            "148w1a0168": {
+              "14EC2501": 9,
+              "14EC2502": 8,
+              "14EC2503": 8,
+              "14EC2504": 8,
+              "14EC2506": 4,
+              "14EC2507": 10,
+              "CGPA": 5,
+              "SGPA": 8.2,
+              "department": "ECE",
+              "id": "148w1a0168"
+            },
+            "148w1a0169": {
+              "14EC2501": 9,
+              "14EC2502": 10,
+              "14EC2503": 9,
+              "14EC2504": 10,
+              "14EC2506": 10,
+              "14EC2507": 8,
+              "CGPA": 9,
+              "SGPA": 9.2,
+              "department": "ECE",
+              "id": "148w1a0169"
+            },
+            "148w1a0170": {
+              "14EC2501": 9,
+              "14EC2502": 9,
+              "14EC2503": 9,
+              "14EC2504": 10,
+              "14EC2506": 10,
+              "14EC2507": 8,
+              "CGPA": 8.5,
+              "SGPA": 8.2,
+              "department": "ECE",
+              "id": "148w1a0170"
+            },
+            "148w1a0261": {
+              "14EE2501": 8,
+              "14EE2502": 8,
+              "14EE2503": 9,
+              "14EE2504": 10,
+              "14EE2506": 7,
+              "14EE2507": 7,
+              "CGPA": 7.9,
+              "SGPA": 5,
+              "department": "CSE",
+              "id": "148w1a0261"
+            },
+            "148w1a0262": {
+              "14EE2501": 8,
+              "14EE2502": 7,
+              "14EE2503": 5,
+              "14EE2504": 9,
+              "14EE2506": 10,
+              "14EE2507": 8,
+              "CGPA": 7.8,
+              "SGPA": 8.9,
+              "department": "CSE",
+              "id": "148w1a0262"
+            },
+            "148w1a0263": {
+              "14EE2501": 7,
+              "14EE2502": 8,
+              "14EE2503": 9,
+              "14EE2504": 9,
+              "14EE2506": 10,
+              "14EE2507": 10,
+              "CGPA": 7.3,
+              "SGPA": 8.4,
+              "department": "EEE",
+              "id": "148w1a0263"
+            },
+            "148w1a0264": {
+              "14EE2501": 7,
+              "14EE2502": 7,
+              "14EE2503": 8,
+              "14EE2504": 9,
+              "14EE2506": 10,
+              "14EE2507": 8,
+              "CGPA": 7,
+              "SGPA": 8,
+              "department": "EEE",
+              "id": "148w1a0264"
+            },
+            "148w1a0265": {
+              "14EE2501": 8,
+              "14EE2502": 7,
+              "14EE2503": 9,
+              "14EE2504": 9,
+              "14EE2506": 8,
+              "14EE2507": 8,
+              "CGPA": 7.6,
+              "SGPA": 8,
+              "department": "EEE",
+              "id": "148w1a0265"
+            },
+            "148w1a0266": {
+              "14EE2501": 8,
+              "14EE2502": 7,
+              "14EE2503": 9,
+              "14EE2504": 9,
+              "14EE2506": 10,
+              "14EE2507": 8,
+              "CGPA": 8.8,
+              "SGPA": 7.6,
+              "department": "EEE",
+              "id": "148w1a0266"
+            },
+            "148w1a0267": {
+              "14EE2501": 7,
+              "14EE2502": 7,
+              "14EE2503": 8,
+              "14EE2504": 8,
+              "14EE2506": 6,
+              "14EE2507": 9,
+              "CGPA": 7.8,
+              "SGPA": 8.1,
+              "department": "EEE",
+              "id": "148w1a0267"
+            },
+            "148w1a0268": {
+              "14EE2501": 9,
+              "14EE2502": 8,
+              "14EE2503": 8,
+              "14EE2504": 8,
+              "14EE2506": 4,
+              "14EE2507": 10,
+              "CGPA": 5,
+              "SGPA": 8.2,
+              "department": "EEE",
+              "id": "148w1a0268"
+            },
+            "148w1a0269": {
+              "14EE2501": 9,
+              "14EE2502": 10,
+              "14EE2503": 9,
+              "14EE2504": 10,
+              "14EE2506": 10,
+              "14EE2507": 8,
+              "CGPA": 9,
+              "SGPA": 9.2,
+              "department": "EEE",
+              "id": "148w1a0269"
+            },
+            "148w1a0270": {
+              "14EE2501": 9,
+              "14EE2502": 9,
+              "14EE2503": 9,
+              "14EE2504": 10,
+              "14EE2506": 10,
+              "14EE2507": 8,
+              "CGPA": 8.5,
+              "SGPA": 8.2,
+              "department": "EEE",
+              "id": "148w1a0270"
+            },
+            "148w1a0271": {
+              "14EE2501": 8,
+              "14EE2502": 8,
+              "14EE2503": 9,
+              "14EE2504": 10,
+              "14EE2506": 7,
+              "14EE2507": 7,
+              "CGPA": 7.7,
+              "SGPA": 6.2,
+              "department": "EEE",
+              "id": "148w1a0271"
+            },
+            "148w1a0272": {
+              "14EE2501": 8,
+              "14EE2502": 7,
+              "14EE2503": 5,
+              "14EE2504": 9,
+              "14EE2506": 10,
+              "14EE2507": 8,
+              "CGPA": 7.4,
+              "SGPA": 8.1,
+              "department": "EEE",
+              "id": "148w1a0272"
+            },
+            "148w1a0273": {
+              "14EE2501": 7,
+              "14EE2502": 8,
+              "14EE2503": 9,
+              "14EE2504": 9,
+              "14EE2506": 10,
+              "14EE2507": 10,
+              "CGPA": 7,
+              "SGPA": 8.9,
+              "department": "EEE",
+              "id": "148w1a0273"
+            },
+            "148w1a0274": {
+              "14EE2501": 7,
+              "14EE2502": 7,
+              "14EE2503": 8,
+              "14EE2504": 9,
+              "14EE2506": 10,
+              "14EE2507": 8,
+              "CGPA": 7,
+              "SGPA": 6.21,
+              "department": "EEE",
+              "id": "148w1a0274"
+            },
+            "148w1a0275": {
+              "14EE2501": 8,
+              "14EE2502": 7,
+              "14EE2503": 9,
+              "14EE2504": 9,
+              "14EE2506": 8,
+              "14EE2507": 8,
+              "CGPA": 7.54,
+              "SGPA": 8.12,
+              "department": "EEE",
+              "id": "148w1a0275"
+            },
+            "148w1a0276": {
+              "14EE2501": 8,
+              "14EE2502": 7,
+              "14EE2503": 9,
+              "14EE2504": 9,
+              "14EE2506": 10,
+              "14EE2507": 8,
+              "CGPA": 8.89,
+              "SGPA": 7.64,
+              "department": "EEE",
+              "id": "148w1a0276"
+            },
+            "148w1a0277": {
+              "14EE2501": 7,
+              "14EE2502": 7,
+              "14EE2503": 8,
+              "14EE2504": 8,
+              "14EE2506": 6,
+              "14EE2507": 9,
+              "CGPA": 7.75,
+              "SGPA": 8.17,
+              "department": "EEE",
+              "id": "148w1a0277"
+            },
+            "148w1a0278": {
+              "14EE2501": 9,
+              "14EE2502": 8,
+              "14EE2503": 8,
+              "14EE2504": 8,
+              "14EE2506": 4,
+              "14EE2507": 10,
+              "CGPA": 5,
+              "SGPA": 8.22,
+              "department": "EEE",
+              "id": "148w1a0278"
+            },
+            "148w1a0279": {
+              "14EE2501": 9,
+              "14EE2502": 10,
+              "14EE2503": 9,
+              "14EE2504": 10,
+              "14EE2506": 10,
+              "14EE2507": 8,
+              "CGPA": 7.48,
+              "SGPA": 8.1,
+              "department": "EEE",
+              "id": "148w1a0279"
+            },
+            "148w1a0280": {
+              "14EE2501": 9,
+              "14EE2502": 9,
+              "14EE2503": 9,
+              "14EE2504": 10,
+              "14EE2506": 10,
+              "14EE2507": 8,
+              "CGPA": 8.12,
+              "SGPA": 8.29,
+              "department": "EEE",
+              "id": "148w1a0280"
+            },
+            "148w1a0361": {
+              "14ME2501": 8,
+              "14ME2502": 8,
+              "14ME2503": 9,
+              "14ME2504": 10,
+              "14ME2506": 7,
+              "14ME2507": 7,
+              "CGPA": 7.9,
+              "SGPA": 5,
+              "department": "MEC",
+              "id": "148w1a0361"
+            },
+            "148w1a0362": {
+              "14ME2501": 8,
+              "14ME2502": 7,
+              "14ME2503": 5,
+              "14ME2504": 9,
+              "14ME2506": 10,
+              "14ME2507": 8,
+              "CGPA": 7.8,
+              "SGPA": 8.9,
+              "department": "MEC",
+              "id": "148w1a0362"
+            },
+            "148w1a0363": {
+              "14ME2501": 7,
+              "14ME2502": 8,
+              "14ME2503": 9,
+              "14ME2504": 9,
+              "14ME2506": 10,
+              "14ME2507": 10,
+              "CGPA": 7.3,
+              "SGPA": 8.4,
+              "department": "MEC",
+              "id": "148w1a0363"
+            },
+            "148w1a0364": {
+              "14ME2501": 7,
+              "14ME2502": 7,
+              "14ME2503": 8,
+              "14ME2504": 9,
+              "14ME2506": 10,
+              "14ME2507": 8,
+              "CGPA": 7,
+              "SGPA": 8,
+              "department": "MEC",
+              "id": "148w1a0364"
+            },
+            "148w1a0365": {
+              "14ME2501": 8,
+              "14ME2502": 7,
+              "14ME2503": 9,
+              "14ME2504": 9,
+              "14ME2506": 8,
+              "14ME2507": 8,
+              "CGPA": 7.6,
+              "SGPA": 8,
+              "department": "MEC",
+              "id": "148w1a0365"
+            },
+            "148w1a0366": {
+              "14ME2501": 8,
+              "14ME2502": 7,
+              "14ME2503": 9,
+              "14ME2504": 9,
+              "14ME2506": 10,
+              "14ME2507": 8,
+              "CGPA": 8.8,
+              "SGPA": 7.6,
+              "department": "MEC",
+              "id": "148w1a0366"
+            },
+            "148w1a0367": {
+              "14ME2501": 7,
+              "14ME2502": 7,
+              "14ME2503": 8,
+              "14ME2504": 8,
+              "14ME2506": 6,
+              "14ME2507": 9,
+              "CGPA": 7.8,
+              "SGPA": 8.1,
+              "department": "MEC",
+              "id": "148w1a0367"
+            },
+            "148w1a0368": {
+              "14ME2501": 9,
+              "14ME2502": 8,
+              "14ME2503": 8,
+              "14ME2504": 8,
+              "14ME2506": 4,
+              "14ME2507": 10,
+              "CGPA": 5,
+              "SGPA": 8.2,
+              "department": "MEC",
+              "id": "148w1a0368"
+            },
+            "148w1a0369": {
+              "14ME2501": 9,
+              "14ME2502": 10,
+              "14ME2503": 9,
+              "14ME2504": 10,
+              "14ME2506": 10,
+              "14ME2507": 8,
+              "CGPA": 9,
+              "SGPA": 9.2,
+              "department": "MEC",
+              "id": "148w1a0369"
+            },
+            "148w1a0370": {
+              "14ME2501": 9,
+              "14ME2502": 9,
+              "14ME2503": 9,
+              "14ME2504": 10,
+              "14ME2506": 10,
+              "14ME2507": 8,
+              "CGPA": 8.5,
+              "SGPA": 8.2,
+              "department": "MEC",
+              "id": "148w1a0370"
+            },
+            "148w1a0461": {
+              "14CS2501": 8,
+              "14CS2502": 8,
+              "14CS2503": 9,
+              "14CS2504": 10,
+              "14CS2506": 7,
+              "14CS2507": 7,
+              "CGPA": 7.9,
+              "SGPA": 5,
+              "department": "CSE",
+              "id": "148w1a0261"
+            },
+            "148w1a0462": {
+              "14CS2501": 8,
+              "14CS2502": 7,
+              "14CS2503": 5,
+              "14CS2504": 9,
+              "14CS2506": 10,
+              "14CS2507": 8,
+              "CGPA": 7.8,
+              "SGPA": 8.9,
+              "department": "CSE",
+              "id": "148w1a0462"
+            },
+            "148w1a0463": {
+              "14CS2501": 7,
+              "14CS2502": 8,
+              "14CS2503": 9,
+              "14CS2504": 9,
+              "14CS2506": 10,
+              "14CS2507": 10,
+              "CGPA": 7.3,
+              "SGPA": 8.4,
+              "department": "CSE",
+              "id": "148w1a0463"
+            },
+            "148w1a0464": {
+              "14CS2501": 7,
+              "14CS2502": 7,
+              "14CS2503": 8,
+              "14CS2504": 9,
+              "14CS2506": 10,
+              "14CS2507": 8,
+              "CGPA": 7,
+              "SGPA": 8,
+              "department": "CSE",
+              "id": "148w1a0464"
+            },
+            "148w1a0465": {
+              "14CS2501": 8,
+              "14CS2502": 7,
+              "14CS2503": 9,
+              "14CS2504": 9,
+              "14CS2506": 8,
+              "14CS2507": 8,
+              "CGPA": 7.6,
+              "SGPA": 8,
+              "department": "CSE",
+              "id": "148w1a0465"
+            },
+            "148w1a0466": {
+              "14CS2501": 8,
+              "14CS2502": 7,
+              "14CS2503": 9,
+              "14CS2504": 9,
+              "14CS2506": 10,
+              "14CS2507": 8,
+              "CGPA": 8.8,
+              "SGPA": 7.6,
+              "department": "CSE",
+              "id": "148w1a0466"
+            },
+            "148w1a0467": {
+              "14CS2501": 7,
+              "14CS2502": 7,
+              "14CS2503": 8,
+              "14CS2504": 8,
+              "14CS2506": 6,
+              "14CS2507": 9,
+              "CGPA": 7.8,
+              "SGPA": 8.1,
+              "department": "CSE",
+              "id": "148w1a0467"
+            },
+            "148w1a0468": {
+              "14CS2501": 9,
+              "14CS2502": 8,
+              "14CS2503": 8,
+              "14CS2504": 8,
+              "14CS2506": 4,
+              "14CS2507": 10,
+              "CGPA": 5,
+              "SGPA": 8.2,
+              "department": "CSE",
+              "id": "148w1a0468"
+            },
+            "148w1a0469": {
+              "14CS2501": 9,
+              "14CS2502": 10,
+              "14CS2503": 9,
+              "14CS2504": 10,
+              "14CS2506": 10,
+              "14CS2507": 8,
+              "CGPA": 9,
+              "SGPA": 9.2,
+              "department": "CSE",
+              "id": "148w1a0469"
+            },
+            "148w1a0470": {
+              "14CS2501": 9,
+              "14CS2502": 9,
+              "14CS2503": 9,
+              "14CS2504": 10,
+              "14CS2506": 10,
+              "14CS2507": 8,
+              "CGPA": 8.5,
+              "SGPA": 8.2,
+              "department": "CSE",
+              "id": "148w1a0470"
+            }
+          },
+          "subjects": {
+            "14CS2501": "CSE",
+            "14CS2502": "CSE",
+            "14CS2503": "CSE",
+            "14CS2504": "CSE",
+            "14CS2506": "CSE",
+            "14CS2507": "CSE",
+            "14EC2501": "ECE",
+            "14EC2502": "ECE",
+            "14EC2503": "ECE",
+            "14EC2504": "ECE",
+            "14EC2506": "ECE",
+            "14EC2507": "ECE",
+            "14EE2501": "EEE",
+            "14EE2502": "EEE",
+            "14EE2503": "EEE",
+            "14EE2504": "EEE",
+            "14EE2506": "EEE",
+            "14EE2507": "EEE",
+            "14ME2501": "MEC",
+            "14ME2502": "MEC",
+            "14ME2503": "MEC",
+            "14ME2504": "MEC",
+            "14ME2506": "MEC",
+            "14ME2507": "MEC"
+          }
+        }
+      }
+    },
+    "2016": {
+      "results": {
+        "sem6": {
+          "studentsresults": {
+            "168w1a0161": {
+              "16EC3501": 8,
+              "16EC3502": 8,
+              "16EC3503": 9,
+              "16EC3504": 10,
+              "16EC3506": 7,
+              "16EC3507": 7,
+              "CGPA": 7.9,
+              "SGPA": 5,
+              "department": "ECE",
+              "id": "168w1a0161"
+            },
+            "168w1a0162": {
+              "16EC3501": 8,
+              "16EC3502": 7,
+              "16EC3503": 5,
+              "16EC3504": 9,
+              "16EC3506": 10,
+              "16EC3507": 8,
+              "CGPA": 7.8,
+              "SGPA": 8.9,
+              "department": "ECE",
+              "id": "168w1a0162"
+            },
+            "168w1a0163": {
+              "16EC3501": 7,
+              "16EC3502": 8,
+              "16EC3503": 9,
+              "16EC3504": 9,
+              "16EC3506": 10,
+              "16EC3507": 10,
+              "CGPA": 7.3,
+              "SGPA": 8.4,
+              "department": "ECE",
+              "id": "168w1a0163"
+            },
+            "168w1a0164": {
+              "16EC3501": 7,
+              "16EC3502": 7,
+              "16EC3503": 8,
+              "16EC3504": 9,
+              "16EC3506": 10,
+              "16EC3507": 8,
+              "CGPA": 7,
+              "SGPA": 8,
+              "department": "ECE",
+              "id": "168w1a0164"
+            },
+            "168w1a0165": {
+              "16EC3501": 8,
+              "16EC3502": 7,
+              "16EC3503": 9,
+              "16EC3504": 9,
+              "16EC3506": 8,
+              "16EC3507": 8,
+              "CGPA": 7.6,
+              "SGPA": 8,
+              "department": "ECE",
+              "id": "168w1a0165"
+            },
+            "168w1a0166": {
+              "16EC3501": 8,
+              "16EC3502": 7,
+              "16EC3503": 9,
+              "16EC3504": 9,
+              "16EC3506": 10,
+              "16EC3507": 8,
+              "CGPA": 8.8,
+              "SGPA": 7.6,
+              "department": "ECE",
+              "id": "168w1a0166"
+            },
+            "168w1a0167": {
+              "16EC3501": 7,
+              "16EC3502": 7,
+              "16EC3503": 8,
+              "16EC3504": 8,
+              "16EC3506": 6,
+              "16EC3507": 9,
+              "CGPA": 7.8,
+              "SGPA": 8.1,
+              "department": "ECE",
+              "id": "168w1a0167"
+            },
+            "168w1a0168": {
+              "16EC3501": 9,
+              "16EC3502": 8,
+              "16EC3503": 8,
+              "16EC3504": 8,
+              "16EC3506": 4,
+              "16EC3507": 10,
+              "CGPA": 5,
+              "SGPA": 8.2,
+              "department": "ECE",
+              "id": "168w1a0168"
+            },
+            "168w1a0169": {
+              "16EC3501": 9,
+              "16EC3502": 10,
+              "16EC3503": 9,
+              "16EC3504": 10,
+              "16EC3506": 10,
+              "16EC3507": 8,
+              "CGPA": 9,
+              "SGPA": 9.2,
+              "department": "ECE",
+              "id": "168w1a0169"
+            },
+            "168w1a0170": {
+              "16EC3501": 9,
+              "16EC3502": 9,
+              "16EC3503": 9,
+              "16EC3504": 10,
+              "16EC3506": 10,
+              "16EC3507": 8,
+              "CGPA": 8.5,
+              "SGPA": 8.2,
+              "department": "ECE",
+              "id": "168w1a0170"
+            },
+            "168w1a0261": {
+              "16EE3501": 8,
+              "16EE3502": 8,
+              "16EE3503": 9,
+              "16EE3504": 10,
+              "16EE3506": 7,
+              "16EE3507": 7,
+              "CGPA": 7.9,
+              "SGPA": 5,
+              "department": "EEE",
+              "id": "168w1a0261"
+            },
+            "168w1a0262": {
+              "16EE3501": 8,
+              "16EE3502": 7,
+              "16EE3503": 5,
+              "16EE3504": 9,
+              "16EE3506": 10,
+              "16EE3507": 8,
+              "CGPA": 7.8,
+              "SGPA": 8.9,
+              "department": "EEE",
+              "id": "168w1a0262"
+            },
+            "168w1a0263": {
+              "16EE3501": 7,
+              "16EE3502": 8,
+              "16EE3503": 9,
+              "16EE3504": 9,
+              "16EE3506": 10,
+              "16EE3507": 10,
+              "CGPA": 7.3,
+              "SGPA": 8.4,
+              "department": "EEE",
+              "id": "168w1a0263"
+            },
+            "168w1a0264": {
+              "16EE3501": 7,
+              "16EE3502": 7,
+              "16EE3503": 8,
+              "16EE3504": 9,
+              "16EE3506": 10,
+              "16EE3507": 8,
+              "CGPA": 7,
+              "SGPA": 8,
+              "department": "EEE",
+              "id": "168w1a0264"
+            },
+            "168w1a0265": {
+              "16EE3501": 8,
+              "16EE3502": 7,
+              "16EE3503": 9,
+              "16EE3504": 9,
+              "16EE3506": 8,
+              "16EE3507": 8,
+              "CGPA": 7.6,
+              "SGPA": 8,
+              "department": "EEE",
+              "id": "168w1a0265"
+            },
+            "168w1a0266": {
+              "16EE3501": 8,
+              "16EE3502": 7,
+              "16EE3503": 9,
+              "16EE3504": 9,
+              "16EE3506": 10,
+              "16EE3507": 8,
+              "CGPA": 8.8,
+              "SGPA": 7.6,
+              "department": "EEE",
+              "id": "168w1a0266"
+            },
+            "168w1a0267": {
+              "16EE3501": 7,
+              "16EE3502": 7,
+              "16EE3503": 8,
+              "16EE3504": 8,
+              "16EE3506": 6,
+              "16EE3507": 9,
+              "CGPA": 7.8,
+              "SGPA": 8.1,
+              "department": "EEE",
+              "id": "168w1a0267"
+            },
+            "168w1a0268": {
+              "16EE3501": 9,
+              "16EE3502": 8,
+              "16EE3503": 8,
+              "16EE3504": 8,
+              "16EE3506": 4,
+              "16EE3507": 10,
+              "CGPA": 5,
+              "SGPA": 8.2,
+              "department": "EEE",
+              "id": "168w1a0268"
+            },
+            "168w1a0269": {
+              "16EE3501": 9,
+              "16EE3502": 10,
+              "16EE3503": 9,
+              "16EE3504": 10,
+              "16EE3506": 10,
+              "16EE3507": 8,
+              "CGPA": 9,
+              "SGPA": 9.2,
+              "department": "EEE",
+              "id": "168w1a0269"
+            },
+            "168w1a0270": {
+              "16EE3501": 9,
+              "16EE3502": 9,
+              "16EE3503": 9,
+              "16EE3504": 10,
+              "16EE3506": 10,
+              "16EE3507": 8,
+              "CGPA": 8.5,
+              "SGPA": 8.2,
+              "department": "EEE",
+              "id": "168w1a0270"
+            },
+            "168w1a0271": {
+              "16EE3501": 8,
+              "16EE3502": 8,
+              "16EE3503": 9,
+              "16EE3504": 10,
+              "16EE3506": 7,
+              "16EE3507": 7,
+              "CGPA": 7.7,
+              "SGPA": 6.2,
+              "department": "EEE",
+              "id": "168w1a0271"
+            },
+            "168w1a0272": {
+              "16EE3501": 8,
+              "16EE3502": 7,
+              "16EE3503": 5,
+              "16EE3504": 9,
+              "16EE3506": 10,
+              "16EE3507": 8,
+              "CGPA": 7.4,
+              "SGPA": 8.1,
+              "department": "EEE",
+              "id": "168w1a0272"
+            },
+            "168w1a0273": {
+              "16EE3501": 7,
+              "16EE3502": 8,
+              "16EE3503": 9,
+              "16EE3504": 9,
+              "16EE3506": 10,
+              "16EE3507": 10,
+              "CGPA": 7,
+              "SGPA": 8.9,
+              "department": "EEE",
+              "id": "168w1a0273"
+            },
+            "168w1a0274": {
+              "16EE3501": 7,
+              "16EE3502": 7,
+              "16EE3503": 8,
+              "16EE3504": 9,
+              "16EE3506": 10,
+              "16EE3507": 8,
+              "CGPA": 7,
+              "SGPA": 6.21,
+              "department": "EEE",
+              "id": "168w1a0274"
+            },
+            "168w1a0275": {
+              "16EE3501": 8,
+              "16EE3502": 7,
+              "16EE3503": 9,
+              "16EE3504": 9,
+              "16EE3506": 8,
+              "16EE3507": 8,
+              "CGPA": 7.54,
+              "SGPA": 8.12,
+              "department": "EEE",
+              "id": "168w1a0275"
+            },
+            "168w1a0276": {
+              "16EE3501": 8,
+              "16EE3502": 7,
+              "16EE3503": 9,
+              "16EE3504": 9,
+              "16EE3506": 10,
+              "16EE3507": 8,
+              "CGPA": 8.89,
+              "SGPA": 7.64,
+              "department": "EEE",
+              "id": "168w1a0276"
+            },
+            "168w1a0277": {
+              "16EE3501": 7,
+              "16EE3502": 7,
+              "16EE3503": 8,
+              "16EE3504": 8,
+              "16EE3506": 6,
+              "16EE3507": 9,
+              "CGPA": 7.75,
+              "SGPA": 8.17,
+              "department": "EEE",
+              "id": "168w1a0277"
+            },
+            "168w1a0278": {
+              "16EE3501": 9,
+              "16EE3502": 8,
+              "16EE3503": 8,
+              "16EE3504": 8,
+              "16EE3506": 4,
+              "16EE3507": 10,
+              "CGPA": 5,
+              "SGPA": 8.22,
+              "department": "EEE",
+              "id": "168w1a0278"
+            },
+            "168w1a0279": {
+              "16EE3501": 9,
+              "16EE3502": 10,
+              "16EE3503": 9,
+              "16EE3504": 10,
+              "16EE3506": 10,
+              "16EE3507": 8,
+              "CGPA": 7.48,
+              "SGPA": 8.1,
+              "department": "EEE",
+              "id": "168w1a0279"
+            },
+            "168w1a0280": {
+              "16EE3501": 9,
+              "16EE3502": 9,
+              "16EE3503": 9,
+              "16EE3504": 10,
+              "16EE3506": 10,
+              "16EE3507": 8,
+              "CGPA": 8.12,
+              "SGPA": 8.29,
+              "department": "EEE",
+              "id": "168w1a0280"
+            },
+            "168w1a0361": {
+              "16ME3501": 8,
+              "16ME3502": 8,
+              "16ME3503": 9,
+              "16ME3504": 10,
+              "16ME3506": 7,
+              "16ME3507": 7,
+              "CGPA": 7.9,
+              "SGPA": 5,
+              "department": "MEC",
+              "id": "168w1a0361"
+            },
+            "168w1a0362": {
+              "16ME3501": 8,
+              "16ME3502": 7,
+              "16ME3503": 5,
+              "16ME3504": 9,
+              "16ME3506": 10,
+              "16ME3507": 8,
+              "CGPA": 7.8,
+              "SGPA": 8.9,
+              "department": "MEC",
+              "id": "168w1a0362"
+            },
+            "168w1a0363": {
+              "16ME3501": 7,
+              "16ME3502": 8,
+              "16ME3503": 9,
+              "16ME3504": 9,
+              "16ME3506": 10,
+              "16ME3507": 10,
+              "CGPA": 7.3,
+              "SGPA": 8.4,
+              "department": "MEC",
+              "id": "168w1a0363"
+            },
+            "168w1a0364": {
+              "16ME3501": 7,
+              "16ME3502": 7,
+              "16ME3503": 8,
+              "16ME3504": 9,
+              "16ME3506": 10,
+              "16ME3507": 8,
+              "CGPA": 7,
+              "SGPA": 8,
+              "department": "MEC",
+              "id": "168w1a0364"
+            },
+            "168w1a0365": {
+              "16ME3501": 8,
+              "16ME3502": 7,
+              "16ME3503": 9,
+              "16ME3504": 9,
+              "16ME3506": 8,
+              "16ME3507": 8,
+              "CGPA": 7.6,
+              "SGPA": 8,
+              "department": "MEC",
+              "id": "168w1a0365"
+            },
+            "168w1a0366": {
+              "16ME3501": 8,
+              "16ME3502": 7,
+              "16ME3503": 9,
+              "16ME3504": 9,
+              "16ME3506": 10,
+              "16ME3507": 8,
+              "CGPA": 8.8,
+              "SGPA": 7.6,
+              "department": "MEC",
+              "id": "168w1a0366"
+            },
+            "168w1a0367": {
+              "16ME3501": 7,
+              "16ME3502": 7,
+              "16ME3503": 8,
+              "16ME3504": 8,
+              "16ME3506": 6,
+              "16ME3507": 9,
+              "CGPA": 7.8,
+              "SGPA": 8.1,
+              "department": "MEC",
+              "id": "168w1a0367"
+            },
+            "168w1a0368": {
+              "16ME3501": 9,
+              "16ME3502": 8,
+              "16ME3503": 8,
+              "16ME3504": 8,
+              "16ME3506": 4,
+              "16ME3507": 10,
+              "CGPA": 5,
+              "SGPA": 8.2,
+              "department": "MEC",
+              "id": "168w1a0368"
+            },
+            "168w1a0369": {
+              "16ME3501": 9,
+              "16ME3502": 10,
+              "16ME3503": 9,
+              "16ME3504": 10,
+              "16ME3506": 10,
+              "16ME3507": 8,
+              "CGPA": 9,
+              "SGPA": 9.2,
+              "department": "MEC",
+              "id": "168w1a0369"
+            },
+            "168w1a0370": {
+              "16ME3501": 9,
+              "16ME3502": 9,
+              "16ME3503": 9,
+              "16ME3504": 10,
+              "16ME3506": 10,
+              "16ME3507": 8,
+              "CGPA": 8.5,
+              "SGPA": 8.2,
+              "department": "MEC",
+              "id": "168w1a0370"
+            },
+            "168w1a0461": {
+              "16CS3501": 8,
+              "16CS3502": 8,
+              "16CS3503": 9,
+              "16CS3504": 10,
+              "16CS3506": 7,
+              "16CS3507": 7,
+              "CGPA": 7.9,
+              "SGPA": 5,
+              "department": "CSE",
+              "id": "168w1a0261"
+            },
+            "168w1a0462": {
+              "16CS3501": 8,
+              "16CS3502": 7,
+              "16CS3503": 5,
+              "16CS3504": 9,
+              "16CS3506": 10,
+              "16CS3507": 8,
+              "CGPA": 7.8,
+              "SGPA": 8.9,
+              "department": "CSE",
+              "id": "168w1a0462"
+            },
+            "168w1a0463": {
+              "16CS3501": 7,
+              "16CS3502": 8,
+              "16CS3503": 9,
+              "16CS3504": 9,
+              "16CS3506": 10,
+              "16CS3507": 10,
+              "CGPA": 7.3,
+              "SGPA": 8.4,
+              "department": "CSE",
+              "id": "168w1a0463"
+            },
+            "168w1a0464": {
+              "16CS3501": 7,
+              "16CS3502": 7,
+              "16CS3503": 8,
+              "16CS3504": 9,
+              "16CS3506": 10,
+              "16CS3507": 8,
+              "CGPA": 7,
+              "SGPA": 8,
+              "department": "CSE",
+              "id": "168w1a0464"
+            },
+            "168w1a0465": {
+              "16CS3501": 8,
+              "16CS3502": 7,
+              "16CS3503": 9,
+              "16CS3504": 9,
+              "16CS3506": 8,
+              "16CS3507": 8,
+              "CGPA": 7.6,
+              "SGPA": 8,
+              "department": "CSE",
+              "id": "168w1a0465"
+            },
+            "168w1a0466": {
+              "16CS3501": 8,
+              "16CS3502": 7,
+              "16CS3503": 9,
+              "16CS3504": 9,
+              "16CS3506": 10,
+              "16CS3507": 8,
+              "CGPA": 8.8,
+              "SGPA": 7.6,
+              "department": "CSE",
+              "id": "168w1a0466"
+            },
+            "168w1a0467": {
+              "16CS3501": 7,
+              "16CS3502": 7,
+              "16CS3503": 8,
+              "16CS3504": 8,
+              "16CS3506": 6,
+              "16CS3507": 9,
+              "CGPA": 7.8,
+              "SGPA": 8.1,
+              "department": "CSE",
+              "id": "168w1a0467"
+            },
+            "168w1a0468": {
+              "16CS3501": 9,
+              "16CS3502": 8,
+              "16CS3503": 8,
+              "16CS3504": 8,
+              "16CS3506": 4,
+              "16CS3507": 10,
+              "CGPA": 5,
+              "SGPA": 8.2,
+              "department": "CSE",
+              "id": "168w1a0468"
+            },
+            "168w1a0469": {
+              "16CS3501": 9,
+              "16CS3502": 10,
+              "16CS3503": 9,
+              "16CS3504": 10,
+              "16CS3506": 10,
+              "16CS3507": 8,
+              "CGPA": 9,
+              "SGPA": 9.2,
+              "department": "CSE",
+              "id": "168w1a0469"
+            },
+            "168w1a0470": {
+              "16CS3501": 9,
+              "16CS3502": 9,
+              "16CS3503": 9,
+              "16CS3504": 10,
+              "16CS3506": 10,
+              "16CS3507": 8,
+              "CGPA": 8.5,
+              "SGPA": 8.2,
+              "department": "CSE",
+              "id": "168w1a0470"
+            }
+          },
+          "subjects": {
+            "16CS3501": "CSE",
+            "16CS3502": "CSE",
+            "16CS3503": "CSE",
+            "16CS3504": "CSE",
+            "16CS3506": "CSE",
+            "16CS3507": "CSE",
+            "16EC3501": "ECE",
+            "16EC3502": "ECE",
+            "16EC3503": "ECE",
+            "16EC3504": "ECE",
+            "16EC3506": "ECE",
+            "16EC3507": "ECE",
+            "16EE3501": "EEE",
+            "16EE3502": "EEE",
+            "16EE3503": "EEE",
+            "16EE3504": "EEE",
+            "16EE3506": "EEE",
+            "16EE3507": "EEE",
+            "16ME3501": "MEC",
+            "16ME3502": "MEC",
+            "16ME3503": "MEC",
+            "16ME3504": "MEC",
+            "16ME3506": "MEC",
+            "16ME3507": "MEC"
+          }
         }
       }
     },
     "availableresults": {
       "ar1": {
         "batch": 2014,
-        "branch": "EEE",
         "id": "ar1",
         "semester": "sem1",
         "title": "BTECH I-Semester, Oct-2018 VR14"
       },
       "ar2": {
         "batch": 2016,
-        "branch": "EEE",
         "id": "ar2",
         "semester": "sem6",
         "title": "BTECH VI-Semester, Mar-2020 VR12"
       },
       "ar3": {
         "batch": 2014,
-        "branch": "EEE",
         "id": "ar3",
-        "semester": "sem6",
+        "semester": "sem2",
         "title": "BTECH II-Semester, Apr-2019 VR14"
       }
     }
   },
   "studentinfo": {
+    "148w1a0161": {
+      "CGPA": 7,
+      "SGPA": 8.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Allapati",
+      "id": "148w1a0161",
+      "lastname": "Balakrishna",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1112,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0162": {
+      "CGPA": 7.6,
+      "SGPA": 8,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Ambati",
+      "id": "148w1a0162",
+      "lastname": "Bhargavi",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 900,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0163": {
+      "CGPA": 8,
+      "SGPA": 7.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Atluri",
+      "id": "148w1a0163",
+      "lastname": "Amara",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 908,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0164": {
+      "CGPA": 8.6,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Atmuri",
+      "id": "148w1a0164",
+      "lastname": "Raghuram",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 500,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0165": {
+      "CGPA": 8.2,
+      "SGPA": 7.6,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Balathoti",
+      "id": "148w1a0165",
+      "lastname": "Vijay",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1156,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0166": {
+      "CGPA": 9,
+      "SGPA": 8.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bandi",
+      "id": "148w1a0166",
+      "lastname": "Sai teja",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 556,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0167": {
+      "CGPA": 6.8,
+      "SGPA": 7,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bandaru",
+      "id": "148w1a0167",
+      "lastname": "Praveen kumar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1186,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0168": {
+      "CGPA": 7.1,
+      "SGPA": 7.9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Byrisetty",
+      "id": "148w1a0168",
+      "lastname": "Sridhar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 856,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0169": {
+      "CGPA": 9.2,
+      "SGPA": 9.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Surya",
+      "id": "148w1a0169",
+      "lastname": "Pooram",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0170": {
+      "CGPA": 8.8,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Chambothu",
+      "id": "148w1a0170",
+      "lastname": "Vijay vardhan",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 15,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
     "148w1a0261": {
       "CGPA": 7,
       "SGPA": 8.5,
@@ -342,8 +2472,9 @@
       },
       "backlogs": 1,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Allapati",
-      "id": "148W1A0261",
+      "id": "148w1a0261",
       "lastname": "Balakrishna",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -390,8 +2521,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Ambati",
-      "id": "148W1A0262",
+      "id": "148w1a0262",
       "lastname": "Bhargavi",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -438,8 +2570,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Atluri",
-      "id": "148W1A0263",
+      "id": "148w1a0263",
       "lastname": "Amara",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -486,8 +2619,9 @@
       },
       "backlogs": 1,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Atmuri",
-      "id": "148W1A0264",
+      "id": "148w1a0264",
       "lastname": "Raghuram",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -534,8 +2668,9 @@
       },
       "backlogs": 1,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Balathoti",
-      "id": "148W1A0265",
+      "id": "148w1a0265",
       "lastname": "Vijay",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -582,8 +2717,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Bandi",
-      "id": "148W1A0266",
+      "id": "148w1a0266",
       "lastname": "Sai teja",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -630,8 +2766,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Bandaru",
-      "id": "148W1A0267",
+      "id": "148w1a0267",
       "lastname": "Praveen kumar",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -678,8 +2815,9 @@
       },
       "backlogs": 1,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Byrisetty",
-      "id": "148W1A0268",
+      "id": "148w1a0268",
       "lastname": "Sridhar",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -726,8 +2864,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Chakravarthi",
-      "id": "148W1A0269",
+      "id": "148w1a0269",
       "lastname": "Katragadda",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -774,8 +2913,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Chambothu",
-      "id": "148W1A0270",
+      "id": "148w1a0270",
       "lastname": "Vijay vardhan",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -822,8 +2962,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Chinka",
-      "id": "148W1A0271",
+      "id": "148w1a0271",
       "lastname": "Venky",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -870,8 +3011,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Dokiparthi",
-      "id": "148W1A0272",
+      "id": "148w1a0272",
       "lastname": "Pavan",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -918,8 +3060,9 @@
       },
       "backlogs": 3,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Ganti",
-      "id": "148W1A0273",
+      "id": "148w1a0273",
       "lastname": "Lokesh",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -966,8 +3109,9 @@
       },
       "backlogs": 6,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "GVS",
-      "id": "148W1A0274",
+      "id": "148w1a0274",
       "lastname": "Ravali Krishna",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -1014,8 +3158,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Golla",
-      "id": "148W1A0275",
+      "id": "148w1a0275",
       "lastname": "Sireesha",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -1062,8 +3207,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Gunda",
-      "id": "148W1A0276",
+      "id": "148w1a0276",
       "lastname": "Sarvani",
       "parentsPhone": 9441811235,
       "phone": 9441811236,
@@ -1109,8 +3255,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Guraja",
-      "id": "148W1A0277",
+      "id": "148w1a0277",
       "lastname": "Kavya",
       "rank": 80,
       "results": {
@@ -1154,8 +3301,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Hafsa",
-      "id": "148W1A0278",
+      "id": "148w1a0278",
       "lastname": "",
       "rank": 80,
       "results": {
@@ -1199,8 +3347,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Yashwanth",
-      "id": "148W1A0279",
+      "id": "148w1a0279",
       "lastname": "Bukka",
       "rank": 80,
       "results": {
@@ -1244,8 +3393,9 @@
       },
       "backlogs": 0,
       "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
       "firstname": "Sai",
-      "id": "148W1A0280",
+      "id": "148w1a0280",
       "lastname": "Yathin",
       "rank": 80,
       "results": {
@@ -1275,6 +3425,3424 @@
         }
       },
       "yearofjoining": 2014
+    },
+    "148w1a0361": {
+      "CGPA": 7,
+      "SGPA": 8.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Allapati",
+      "id": "148w1a0361",
+      "lastname": "Balakrishna",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1112,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0362": {
+      "CGPA": 7.6,
+      "SGPA": 8,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Ambati",
+      "id": "148w1a0362",
+      "lastname": "Bhargavi",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 900,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0363": {
+      "CGPA": 8,
+      "SGPA": 7.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Atluri",
+      "id": "148w1a0363",
+      "lastname": "Amara",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 908,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0364": {
+      "CGPA": 8.6,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Atmuri",
+      "id": "148w1a0364",
+      "lastname": "Raghuram",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 500,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0365": {
+      "CGPA": 8.2,
+      "SGPA": 7.6,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Balathoti",
+      "id": "148w1a0365",
+      "lastname": "Vijay",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1156,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0366": {
+      "CGPA": 9,
+      "SGPA": 8.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bandi",
+      "id": "148w1a0366",
+      "lastname": "Sai teja",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 556,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0367": {
+      "CGPA": 6.8,
+      "SGPA": 7,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bandaru",
+      "id": "148w1a0367",
+      "lastname": "Praveen kumar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1186,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0368": {
+      "CGPA": 7.1,
+      "SGPA": 7.9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Byrisetty",
+      "id": "148w1a0368",
+      "lastname": "Sridhar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 856,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0369": {
+      "CGPA": 9.2,
+      "SGPA": 9.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Sravani",
+      "id": "148w1a0369",
+      "lastname": "Ganta",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0370": {
+      "CGPA": 8.8,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Chambothu",
+      "id": "148w1a0370",
+      "lastname": "Vijay vardhan",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 15,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0461": {
+      "CGPA": 7,
+      "SGPA": 8.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Allapati",
+      "id": "148w1a0461",
+      "lastname": "Balakrishna",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1112,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0462": {
+      "CGPA": 7.6,
+      "SGPA": 8,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Ambati",
+      "id": "148w1a0462",
+      "lastname": "Bhargavi",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 900,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0463": {
+      "CGPA": 8,
+      "SGPA": 7.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Atluri",
+      "id": "148w1a0463",
+      "lastname": "Amara",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 908,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0464": {
+      "CGPA": 8.6,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Atmuri",
+      "id": "148w1a0464",
+      "lastname": "Raghuram",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 500,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0465": {
+      "CGPA": 8.2,
+      "SGPA": 7.6,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Balathoti",
+      "id": "148w1a0465",
+      "lastname": "Vijay",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1156,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0466": {
+      "CGPA": 9,
+      "SGPA": 8.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bandi",
+      "id": "148w1a0466",
+      "lastname": "Sai teja",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 556,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0467": {
+      "CGPA": 6.8,
+      "SGPA": 7,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bandaru",
+      "id": "148w1a0467",
+      "lastname": "Praveen kumar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1186,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0468": {
+      "CGPA": 7.1,
+      "SGPA": 7.9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Byrisetty",
+      "id": "148w1a0468",
+      "lastname": "Sridhar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 856,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0469": {
+      "CGPA": 9.2,
+      "SGPA": 9.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Lakshmi",
+      "id": "148w1a0469",
+      "lastname": "Pinnamaneni",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "148w1a0470": {
+      "CGPA": 8.8,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Chambothu",
+      "id": "148w1a0470",
+      "lastname": "Vijay vardhan",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 15,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2014
+    },
+    "168w1a0161": {
+      "CGPA": 7,
+      "SGPA": 8.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Allapati",
+      "id": "168w1a0161",
+      "lastname": "Balakrishna",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1112,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0162": {
+      "CGPA": 7.6,
+      "SGPA": 8,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Ambati",
+      "id": "168w1a0162",
+      "lastname": "Bhargavi",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 900,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0163": {
+      "CGPA": 8,
+      "SGPA": 7.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Atluri",
+      "id": "168w1a0163",
+      "lastname": "Amara",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 908,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0164": {
+      "CGPA": 8.6,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Atmuri",
+      "id": "168w1a0164",
+      "lastname": "Raghuram",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 500,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0165": {
+      "CGPA": 8.2,
+      "SGPA": 7.6,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Balathoti",
+      "id": "168w1a0165",
+      "lastname": "Vijay",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1156,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0166": {
+      "CGPA": 9,
+      "SGPA": 8.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bandi",
+      "id": "168w1a0166",
+      "lastname": "Sai teja",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 556,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0167": {
+      "CGPA": 6.8,
+      "SGPA": 7,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bandaru",
+      "id": "168w1a0167",
+      "lastname": "Praveen kumar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1186,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0168": {
+      "CGPA": 7.1,
+      "SGPA": 7.9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Byrisetty",
+      "id": "168w1a0168",
+      "lastname": "Sridhar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 856,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0169": {
+      "CGPA": 9.2,
+      "SGPA": 9.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Surya",
+      "id": "168w1a0169",
+      "lastname": "Pooram",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0170": {
+      "CGPA": 8.8,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "ECE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Chambothu",
+      "id": "168w1a0170",
+      "lastname": "Vijay vardhan",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 15,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0261": {
+      "CGPA": 7,
+      "SGPA": 8.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Gowtham",
+      "id": "168w1a0261",
+      "lastname": "Sawang",
+      "parentsPhone": 9441251235,
+      "phone": 9443611236,
+      "rank": 1112,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0262": {
+      "CGPA": 7.6,
+      "SGPA": 8,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Krishna",
+      "id": "168w1a0262",
+      "lastname": "uppuluri",
+      "parentsPhone": 9441822235,
+      "phone": 9448811236,
+      "rank": 900,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0263": {
+      "CGPA": 8,
+      "SGPA": 7.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Atmuri",
+      "id": "168w1a0263",
+      "lastname": "Jhonson",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 908,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0264": {
+      "CGPA": 8.6,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Alluri",
+      "id": "168w1a0264",
+      "lastname": "Sai ram",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 500,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0265": {
+      "CGPA": 8.2,
+      "SGPA": 7.6,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Buggu",
+      "id": "168w1a0265",
+      "lastname": "Priya",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1156,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0266": {
+      "CGPA": 9,
+      "SGPA": 8.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bhargav",
+      "id": "168w1a0266",
+      "lastname": "Sai",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 556,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0267": {
+      "CGPA": 6.8,
+      "SGPA": 7,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bandaru",
+      "id": "168w1a0267",
+      "lastname": "Lakshman",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1186,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0268": {
+      "CGPA": 7.1,
+      "SGPA": 7.9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Srikanth",
+      "id": "168w1a0268",
+      "lastname": "Ganta",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 856,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0269": {
+      "CGPA": 9.2,
+      "SGPA": 9.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Konduru",
+      "id": "168w1a0269",
+      "lastname": "Deepthi",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0270": {
+      "CGPA": 8.8,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Champa",
+      "id": "168w1a0270",
+      "lastname": ":Lakshmi",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 15,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0271": {
+      "CGPA": 7.2,
+      "SGPA": 8.1,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Sellia",
+      "id": "168w1a0271",
+      "lastname": "mary",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 119,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0272": {
+      "CGPA": 8.5,
+      "SGPA": 8.1,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Nafeesa",
+      "id": "168w1a0272",
+      "lastname": "Muzafareen",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 186,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0273": {
+      "CGPA": 8,
+      "SGPA": 6.7,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 3,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Ganti",
+      "id": "168w1a0273",
+      "lastname": "Pavan kumar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1200,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0274": {
+      "CGPA": 6.3,
+      "SGPA": 8.1,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 6,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "GVS",
+      "id": "168w1a0274",
+      "lastname": "Gopi Krishna",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1201,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0275": {
+      "CGPA": 8.1,
+      "SGPA": 7,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Golla",
+      "id": "168w1a0275",
+      "lastname": "Anil kumar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 823,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0276": {
+      "CGPA": 8.9,
+      "SGPA": 7,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Gulli",
+      "id": "168w1a0276",
+      "lastname": "Divya",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 80,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0277": {
+      "CGPA": 8.9,
+      "SGPA": 7,
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Guraja",
+      "id": "168w1a0277",
+      "lastname": "Kumar Varma",
+      "rank": 80,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0278": {
+      "CGPA": 8.9,
+      "SGPA": 7,
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Lakshmi",
+      "id": "168w1a0278",
+      "lastname": "Gaali",
+      "rank": 80,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0279": {
+      "CGPA": 8.9,
+      "SGPA": 7,
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Yashwanth",
+      "id": "168w1a0279",
+      "lastname": "Kumar",
+      "rank": 80,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0280": {
+      "CGPA": 8.9,
+      "SGPA": 7,
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "EEE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Sai",
+      "id": "168w1a0280",
+      "lastname": "Latish kumar",
+      "rank": 80,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0361": {
+      "CGPA": 7,
+      "SGPA": 8.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Allapati",
+      "id": "168w1a0361",
+      "lastname": "Balakrishna",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1112,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0362": {
+      "CGPA": 7.6,
+      "SGPA": 8,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Ambati",
+      "id": "168w1a0362",
+      "lastname": "Bhargavi",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 900,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0363": {
+      "CGPA": 8,
+      "SGPA": 7.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Atluri",
+      "id": "168w1a0363",
+      "lastname": "Amara",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 908,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0364": {
+      "CGPA": 8.6,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Atmuri",
+      "id": "168w1a0364",
+      "lastname": "Raghuram",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 500,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0365": {
+      "CGPA": 8.2,
+      "SGPA": 7.6,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Balathoti",
+      "id": "168w1a0365",
+      "lastname": "Vijay",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1156,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0366": {
+      "CGPA": 9,
+      "SGPA": 8.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bandi",
+      "id": "168w1a0366",
+      "lastname": "Sai teja",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 556,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0367": {
+      "CGPA": 6.8,
+      "SGPA": 7,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bandaru",
+      "id": "168w1a0367",
+      "lastname": "Praveen kumar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1186,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0368": {
+      "CGPA": 7.1,
+      "SGPA": 7.9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Byrisetty",
+      "id": "168w1a0368",
+      "lastname": "Sridhar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 856,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0369": {
+      "CGPA": 9.2,
+      "SGPA": 9.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Sravani",
+      "id": "168w1a0369",
+      "lastname": "Ganta",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0370": {
+      "CGPA": 8.8,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "MEC",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Chambothu",
+      "id": "168w1a0370",
+      "lastname": "Vijay vardhan",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 15,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0461": {
+      "CGPA": 7,
+      "SGPA": 8.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Allapati",
+      "id": "168w1a0461",
+      "lastname": "Balakrishna",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1112,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0462": {
+      "CGPA": 7.6,
+      "SGPA": 8,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Ambati",
+      "id": "168w1a0462",
+      "lastname": "Bhargavi",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 900,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0463": {
+      "CGPA": 8,
+      "SGPA": 7.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Atluri",
+      "id": "168w1a0463",
+      "lastname": "Amara",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 908,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0464": {
+      "CGPA": 8.6,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Atmuri",
+      "id": "168w1a0464",
+      "lastname": "Raghuram",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 500,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0465": {
+      "CGPA": 8.2,
+      "SGPA": 7.6,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Balathoti",
+      "id": "168w1a0465",
+      "lastname": "Vijay",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1156,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0466": {
+      "CGPA": 9,
+      "SGPA": 8.2,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bandi",
+      "id": "168w1a0466",
+      "lastname": "Sai teja",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 556,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0467": {
+      "CGPA": 6.8,
+      "SGPA": 7,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Bandaru",
+      "id": "168w1a0467",
+      "lastname": "Praveen kumar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1186,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0468": {
+      "CGPA": 7.1,
+      "SGPA": 7.9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 1,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Byrisetty",
+      "id": "168w1a0468",
+      "lastname": "Sridhar",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 856,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0469": {
+      "CGPA": 9.2,
+      "SGPA": 9.5,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Lakshmi",
+      "id": "168w1a0469",
+      "lastname": "Pinnamaneni",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 1,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
+    },
+    "168w1a0470": {
+      "CGPA": 8.8,
+      "SGPA": 9,
+      "address": "F-1,SR Residency,Gunadala,Vijayawada,520004",
+      "attendance": {
+        "sem1": 98.7,
+        "sem2": 96,
+        "sem3": 95,
+        "sem4": 96.3,
+        "sem5": 92,
+        "sem6": 88
+      },
+      "backlogs": 0,
+      "department": "CSE",
+      "dob": "Fri Jul 25 1997 13:41:33 GMT+0530 (IST)",
+      "firstname": "Chambothu",
+      "id": "168w1a0470",
+      "lastname": "Vijay vardhan",
+      "parentsPhone": 9441811235,
+      "phone": 9441811236,
+      "rank": 15,
+      "results": {
+        "sem1": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem2": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem3": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem4": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem5": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        },
+        "sem6": {
+          "CGPA": 9,
+          "SGPA": 9.5
+        }
+      },
+      "yearofjoining": 2016
     }
   }
 }

@@ -66,7 +66,7 @@ const GetSubjectAnalysisScreen = ({ navigation }) => {
 
   useEffect(() => {
     if (subjects.length > 0) setSubject(filteredSubjects[0].subject);
-  }, [subjects]);
+  }, [subjects, department]);
 
   return (
     <KeyboardAvoidingView behavior="position" style={{ flex: 1 }}>
@@ -92,21 +92,23 @@ const GetSubjectAnalysisScreen = ({ navigation }) => {
             {subjectsLoading ? (
               <Loading size="small" color={Colors.primary} />
             ) : (
-              <View style={styles.subjectAnalysisPickerView}>
-                <Picker
-                  mode="dropdown"
-                  onValueChange={(itemValue) => setSubject(itemValue)}
-                  selectedValue={subject}
-                >
-                  {filteredSubjects.map((subject) => (
-                    <Picker.Item
-                      label={subject.subject}
-                      value={subject.subject}
-                      key={subject.subject}
-                    />
-                  ))}
-                </Picker>
-              </View>
+              subjects && (
+                <View style={styles.subjectAnalysisPickerView}>
+                  <Picker
+                    mode="dropdown"
+                    onValueChange={(itemValue) => setSubject(itemValue)}
+                    selectedValue={subject}
+                  >
+                    {filteredSubjects.map((subject) => (
+                      <Picker.Item
+                        label={subject.subject}
+                        value={subject.subject}
+                        key={subject.subject}
+                      />
+                    ))}
+                  </Picker>
+                </View>
+              )
             )}
             <View style={styles.subjectAnalysisButtonView}>
               <Button

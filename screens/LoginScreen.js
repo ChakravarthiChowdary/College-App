@@ -30,9 +30,11 @@ const LoginScreen = ({ navigation, route }) => {
   const [password, setPassword] = useState("");
   const [visible, setVisible] = useState(false);
   const [message, setMessage] = useState("");
+  const [loginClicked, setLoginClicked] = useState(false);
 
   const loginPressedHandler = () => {
     Keyboard.dismiss();
+    setLoginClicked(true);
     if (email !== "" && password !== "") {
       dispatch(
         loginUser({ email: email, password: password, returnSecureToken: true })
@@ -40,13 +42,20 @@ const LoginScreen = ({ navigation, route }) => {
     } else {
       setVisible(true);
       setMessage("All fields are mandatory !");
+      setLoginClicked(false);
     }
   };
 
+  const focusHandler = () => {
+    setVisible(false);
+    setMessage("");
+  };
+
   useEffect(() => {
-    if (error) {
+    if (error && loginClicked) {
       setMessage(error.message);
       setVisible(true);
+      setLoginClicked(false);
     }
   }, [error]);
 
@@ -72,6 +81,7 @@ const LoginScreen = ({ navigation, route }) => {
                     textcolor="#fff"
                     placeholderColor="#fff"
                     colorprimary="#fff"
+                    onFocus={focusHandler}
                     onChangeText={(text) => setEmail(text)}
                     placeholder="StudentID@vrsec.com"
                   />
@@ -83,6 +93,7 @@ const LoginScreen = ({ navigation, route }) => {
                     textcolor="#fff"
                     placeholderColor="#fff"
                     colorprimary="#fff"
+                    onFocus={focusHandler}
                     style={styles.inputText}
                     secureTextEntry={!isSwitchOn}
                     onChangeText={(text) => setPassword(text)}
@@ -141,7 +152,7 @@ const LoginScreen = ({ navigation, route }) => {
               message={message}
               onDismissSnackBar={() => setVisible(false)}
               styles={{
-                marginBottom: Dimensions.get("screen").height / 20,
+                marginBottom: 10,
                 marginHorizontal: 20,
               }}
             />

@@ -1,18 +1,21 @@
-export const GET_UPDATE_START = "GET_UPDATE_START";
-export const GET_UPDATE_SUCCESS = "GET_UPDATE_SUCCESS";
-export const GET_UPDATE_FAIL = "GET_UPDATE_FAIL";
+export const GET_APP_DATA_START = "GET_APP_DATA_START";
+export const GET_APP_DATA_SUCCESS = "GET_APP_DATA_SUCCESS";
+export const GET_APP_DATA_FAIL = "GET_APP_DATA_FAIL";
 
-export const getUpdateLog = () => {
+export const getAppData = () => {
   return async (dispatch) => {
     try {
-      dispatch({ type: GET_UPDATE_START });
+      dispatch({ type: GET_APP_DATA_START });
       const response = await fetch(
-        `https://college-app-991d6.firebaseio.com/updatelog.json`
+        `https://college-app-991d6.firebaseio.com/appdata.json`
       );
-      const updateRes = await response.json();
-      dispatch({ type: GET_UPDATE_SUCCESS, payload: updateRes });
+      const privacyandupdate = await response.json();
+      dispatch({
+        type: GET_APP_DATA_SUCCESS,
+        payload: privacyandupdate,
+      });
     } catch (error) {
-      dispatch({ type: GET_UPDATE_FAIL, payload: error });
+      dispatch({ type: GET_APP_DATA_FAIL, payload: error });
     }
   };
 };

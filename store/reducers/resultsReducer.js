@@ -16,6 +16,7 @@ import {
   GET_COLLEGE_TOPPERS_START,
   GET_COLLEGE_TOPPERS_SUCCESS,
   GET_COLLEGE_TOPPERS_FAIL,
+  CLEAR_TOPPERS,
 } from "../actions/resultsActions";
 import stateUpdate from "../../utils/stateUpdate";
 
@@ -121,6 +122,12 @@ const resultsReducer = (state = initialState, action) => {
       return stateUpdate(state, {
         toppersLoading: false,
         toppersError: action.payload,
+      });
+    case CLEAR_TOPPERS:
+      return stateUpdate(state, {
+        toppersLoading: false,
+        toppersError: null,
+        toppers: null,
       });
     default:
       return state;

@@ -1,13 +1,15 @@
 import React from "react";
 import { View, Image, Dimensions, StyleSheet } from "react-native";
 import { Divider } from "react-native-paper";
+import { useSelector } from "react-redux";
 
 import Text from "../components/Text";
 import { Colors } from "../constants/Colors";
 
 const Placements = () => {
+  const { objective, honestMessage } = useSelector((state) => state.common);
   return (
-    <View>
+    <View style={{ paddingHorizontal: 5 }}>
       <Text style={styles.Placements}>Placement Panel</Text>
       <Divider style={styles.divider} />
       <Image
@@ -17,22 +19,10 @@ const Placements = () => {
       <View>
         <Text style={styles.Placements}>Objective</Text>
         <Divider style={styles.divider} />
-        <Text style={styles.messageText}>
-          The objective of Training & Placement Department is to equip students
-          with globally employable skills through training and to help them
-          attain their desired employment and career goals.
-        </Text>
+        <Text style={styles.messageText}>{objective}</Text>
         <Text style={styles.Placements}>We are honest</Text>
         <Divider style={styles.divider} />
-        <Text style={styles.messageText}>
-          Placement Cell has a full time Placement Officer. The Cell is devoted
-          to cater to the needs of the organizations in conducting campus
-          interviews for placements. Interactions with organizations are
-          regularly done for placement requirements. Placement cell also
-          conducts career guidance cement requirements. Placement cell also
-          conducts career guidance workshops to the final and pre final year
-          students.
-        </Text>
+        <Text style={styles.messageText}>{honestMessage}</Text>
       </View>
       <View style={{ marginVertical: 20 }}>
         <View style={{ flexDirection: "row" }}>
